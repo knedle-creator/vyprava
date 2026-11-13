@@ -1,0 +1,21 @@
+{
+ "id": "robin",
+ "name": "Robin",
+ "title": "Robinova výprava",
+ "titleGen": "Robinovy výpravy",
+ "gender": "m",
+ "theme": "vyprava",
+ "courses": {"explore2": "🧭", "nz": "🥝"},
+ "courseOrder": ["explore2", "nz"],
+ "lessonIcon": "🧭",
+ "speechRate": 145,
+ "bg": {"light": "#F1F6FA", "dark": "#0F1B26"},
+ "t": {
+  "tagline": "Angličtina po malých krocích. Jedna lekce trvá asi 5–8 minut.",
+  "allDone": "Máš všechny odznaky 🏅",
+  "courseCount": "odznaků",
+  "courseHint": "Za každou hotovou lekci dostaneš odznak. Všechno jde kdykoli otevřít znovu.",
+  "lessonDone": "Máš nový odznak!",
+  "listenSkill": "Přesně tohle se ti bude hodit ve škole i na cestě po Novém Zélandu."
+ }
+}
