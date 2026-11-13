@@ -1,0 +1,194 @@
+{
+ "schema": 1,
+ "id": "et2-hello",
+ "course": "explore2",
+ "courseTitle": "Explore Together 2",
+ "order": 1,
+ "title": "Hello!",
+ "cz": "Úvodní lekce: barvy, čísla 11–20 a měsíce",
+ "version": 1,
+ "people": {
+  "Max": {"e": "👦", "pitch": 0.9, "gender": "m", "voice": 1},
+  "Ella": {"e": "👧", "pitch": 1.2, "gender": "f", "voice": 0}
+ },
+ "lessons": [
+  {
+   "id": "h-colours",
+   "e": "🎨",
+   "art": "a1",
+   "title": "Colours",
+   "cz": "Barvy",
+   "intro": "<p>Barvy jsou všude kolem tebe. Klepni na 🔊 a poslechni si každou barvu.</p><div class=\"rule\">Hra <b>I see</b>: jeden řekne <b>I see something red.</b> (Vidím něco červeného.) a druhý hádá, co to je.</div>",
+   "words": [
+    ["🔴", "red", "červená"],
+    ["🟠", "orange", "oranžová"],
+    ["🟡", "yellow", "žlutá"],
+    ["⚫", "black", "černá"],
+    ["⚪", "white", "bílá"],
+    ["🟢", "green", "zelená"],
+    ["🔵", "blue", "modrá"],
+    ["🟣", "purple", "fialová"],
+    ["🦩", "pink", "růžová"],
+    ["🟤", "brown", "hnědá"],
+    ["🐘", "grey", "šedá"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "🔴 Jaká je to barva?", "say": "red", "opts": ["red", "green", "blue"], "a": "red"},
+    {"t": "listen", "say": "yellow", "cz": "žlutá", "opts": ["yellow", "orange", "white"], "a": "yellow"},
+    {"t": "pair", "q": "Spoj barvu se slovem.", "pairs": [["🟢", "green"], ["🔵", "blue"], ["⚫", "black"], ["🟣", "purple"]]},
+    {"t": "gap", "s": "🍌 I see something ___. It’s a banana!", "opts": ["yellow", "blue", "black"], "a": "yellow"},
+    {"t": "listen", "say": "purple", "cz": "fialová", "opts": ["purple", "pink", "brown"], "a": "purple"},
+    {"t": "mc", "q": "🐸 What colour is the frog?", "say": "What colour is the frog?", "opts": ["green", "red", "grey"], "a": "green", "why": "Žába je zelená: green."},
+    {"t": "pair", "q": "Spoj anglické slovo s českým.", "pairs": [["pink", "růžová"], ["brown", "hnědá"], ["grey", "šedá"], ["white", "bílá"]]},
+    {"t": "build", "cz": "Vidím něco modrého.", "a": "I see something blue.", "extra": ["red", "a"]},
+    {"t": "mc", "q": "🍊 What colour is an orange?", "say": "What colour is an orange?", "opts": ["orange", "blue", "pink"], "a": "orange", "why": "Pomeranč je anglicky taky orange, stejně jako oranžová barva."},
+    {"t": "speak", "a": "I see something red."}
+   ]
+  },
+  {
+   "id": "h-numbers",
+   "e": "🔢",
+   "art": "a3",
+   "title": "Numbers 11–20",
+   "cz": "Čísla 11–20 a kolik je ti let",
+   "intro": "<p>Čísla od 13 do 19 mají na konci <b>-teen</b>: thir<b>teen</b>, four<b>teen</b>… Zní to skoro jako anglické slovo pro „náctiletý“.</p><div class=\"rule\"><b>How old are you?</b> = Kolik je ti let?<br><b>I’m ten.</b> = Je mi deset.</div>",
+   "words": [
+    ["11", "eleven", "jedenáct"],
+    ["12", "twelve", "dvanáct"],
+    ["13", "thirteen", "třináct"],
+    ["14", "fourteen", "čtrnáct"],
+    ["15", "fifteen", "patnáct"],
+    ["16", "sixteen", "šestnáct"],
+    ["17", "seventeen", "sedmnáct"],
+    ["18", "eighteen", "osmnáct"],
+    ["19", "nineteen", "devatenáct"],
+    ["20", "twenty", "dvacet"],
+    ["❓", "How old are you?", "Kolik je ti let?"],
+    ["🎂", "I’m ten.", "Je mi deset."]
+   ],
+   "ex": [
+    {"t": "listen", "say": "thirteen", "cz": "třináct", "opts": ["thirteen", "three", "fourteen"], "a": "thirteen"},
+    {"t": "mc", "q": "<b>12</b> = ?", "say": "twelve", "opts": ["twelve", "twenty", "eleven"], "a": "twelve"},
+    {"t": "pair", "q": "Spoj číslo se slovem.", "pairs": [["15", "fifteen"], ["16", "sixteen"], ["18", "eighteen"], ["20", "twenty"]]},
+    {"t": "listen", "say": "nineteen", "cz": "devatenáct", "opts": ["nineteen", "nine", "eighteen"], "a": "nineteen", "why": "Nineteen má na konci -teen, takže je to víc než deset."},
+    {"t": "gap", "s": "Ten and five is ___.", "opts": ["fifteen", "fourteen", "five"], "a": "fifteen", "why": "10 + 5 = 15, fifteen."},
+    {"t": "mc", "q": "Jak se zeptáš, kolik je někomu let?", "opts": ["How old are you?", "What’s your name?", "How are you?"], "a": "How old are you?"},
+    {"t": "listen", "say": "seventeen", "cz": "sedmnáct", "opts": ["seventeen", "sixteen", "eleven"], "a": "seventeen"},
+    {"t": "build", "cz": "Kolik je ti let?", "a": "How old are you?", "extra": ["is", "name"]},
+    {"t": "build", "cz": "Je mi jedenáct.", "a": "I’m eleven.", "extra": ["twelve", "you"]},
+    {"t": "dict", "a": "twenty"},
+    {"t": "speak", "a": "Hello! How old are you?"}
+   ]
+  },
+  {
+   "id": "h-isit",
+   "e": "🎁",
+   "art": "a5",
+   "title": "Is it a bike?",
+   "cz": "Je to kolo? Ano, je. / Ne, není.",
+   "intro": "<p>Když hádáš, co je v krabici, ptáš se <b>Is it a …?</b> (Je to …?)</p><div class=\"rule\"><b>Yes, it is.</b> = Ano, je.<br><b>No, it isn’t.</b> = Ne, není.</div>",
+   "words": [
+    ["🚲", "bike", "kolo"],
+    ["🐶", "dog", "pes"],
+    ["🎁", "present", "dárek"],
+    ["📦", "box", "krabice"],
+    ["🎂", "birthday", "narozeniny"],
+    ["✅", "Yes, it is.", "Ano, je."],
+    ["❌", "No, it isn’t.", "Ne, není."],
+    ["😮", "Surprise!", "Překvapení!"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "🐶 Is it a bike?", "say": "Is it a bike?", "opts": ["No, it isn’t.", "Yes, it is."], "a": "No, it isn’t.", "why": "Na obrázku je pes, ne kolo. Odpověď je: No, it isn’t."},
+    {"t": "mc", "q": "🎁 Is it a present?", "say": "Is it a present?", "opts": ["Yes, it is.", "No, it isn’t."], "a": "Yes, it is."},
+    {"t": "listen", "say": "present", "cz": "dárek", "opts": ["present", "box", "bike"], "a": "present"},
+    {"t": "pair", "q": "Spoj obrázek se slovem.", "pairs": [["🚲", "bike"], ["📦", "box"], ["🐶", "dog"], ["🎂", "birthday"]]},
+    {"t": "gap", "s": "___ it a dog? Yes, it is.", "opts": ["Is", "Are", "Am"], "a": "Is", "why": "Otázka „Je to…?“ začíná slovem Is: Is it a dog?"},
+    {"t": "gap", "s": "🚲 Is it a bike? Yes, it ___.", "opts": ["is", "isn’t", "are"], "a": "is"},
+    {"t": "build", "cz": "Je to kolo?", "a": "Is it a bike?", "extra": ["are", "the"]},
+    {"t": "build", "cz": "Ne, není.", "a": "No, it isn’t.", "extra": ["is", "yes"]},
+    {"t": "mc", "q": "Jak řekneš „Překvapení!“?", "opts": ["Surprise!", "Present!", "Birthday!"], "a": "Surprise!"},
+    {"t": "speak", "a": "Is it a present for me?"}
+   ]
+  },
+  {
+   "id": "h-months",
+   "e": "📅",
+   "art": "a6",
+   "title": "Months",
+   "cz": "Měsíce a narozeniny",
+   "intro": "<p>Anglické měsíce se píšou s <b>velkým písmenem</b>: January, February… (česky malým: leden, únor).</p><div class=\"rule\"><b>When’s your birthday?</b> = Kdy máš narozeniny?<br><b>In May.</b> = V květnu.</div>",
+   "words": [
+    ["⛄", "January", "leden"],
+    ["❤️", "February", "únor"],
+    ["🐣", "March", "březen"],
+    ["🌷", "April", "duben"],
+    ["🌼", "May", "květen"],
+    ["🐝", "June", "červen"],
+    ["🍦", "July", "červenec"],
+    ["🏖️", "August", "srpen"],
+    ["🍂", "September", "září"],
+    ["🎃", "October", "říjen"],
+    ["🎆", "November", "listopad"],
+    ["🎄", "December", "prosinec"],
+    ["❓", "When’s your birthday?", "Kdy máš narozeniny?"],
+    ["🎂", "In May.", "V květnu."]
+   ],
+   "ex": [
+    {"t": "listen", "say": "October", "cz": "říjen", "opts": ["October", "November", "August"], "a": "October"},
+    {"t": "mc", "q": "🎄 Ve kterém měsíci jsou Vánoce?", "opts": ["December", "March", "July"], "a": "December"},
+    {"t": "mc", "q": "Který měsíc je po <b>March</b>?", "opts": ["April", "May", "February"], "a": "April", "why": "March = březen, potom přijde duben: April."},
+    {"t": "pair", "q": "Spoj anglický měsíc s českým.", "pairs": [["January", "leden"], ["June", "červen"], ["July", "červenec"], ["September", "září"]]},
+    {"t": "gap", "s": "My birthday is ___ May.", "opts": ["in", "on", "is"], "a": "in", "why": "U měsíců se říká in: in May, in June."},
+    {"t": "listen", "say": "February", "cz": "únor", "opts": ["February", "January", "December"], "a": "February"},
+    {"t": "type", "s": "⛄ leden = ___", "a": ["January"], "why": "Leden je January. Nezapomeň, že měsíce se píšou s velkým písmenem."},
+    {"t": "build", "cz": "Kdy máš narozeniny?", "a": "When’s your birthday?", "extra": ["is", "you"]},
+    {"t": "build", "cz": "Mám narozeniny v červnu.", "a": "My birthday is in June.", "extra": ["on", "July"]},
+    {"t": "speak", "a": "When’s your birthday?"}
+   ]
+  }
+ ],
+ "practice": [],
+ "dialogs": [
+  {
+   "id": "h-d1",
+   "title": "The mystery box",
+   "cz": "Tajemná krabice",
+   "people": ["Ella", "Max"],
+   "lines": [
+    {"who": "Ella", "en": "Look, Max! A big box.", "cz": "Podívej, Maxi! Velká krabice."},
+    {"who": "Max", "en": "Wow! Is it a present?", "cz": "Páni! Je to dárek?"},
+    {"who": "Ella", "en": "Yes, it is. It’s for you!", "cz": "Ano, je. Je pro tebe!"},
+    {"who": "Max", "en": "For me? Is it my birthday?", "cz": "Pro mě? Mám narozeniny?"},
+    {"who": "Ella", "en": "No, it isn’t. Your birthday is in July.", "cz": "Ne, nemáš. Narozeniny máš v červenci."},
+    {"who": "Max", "en": "Is it a bike?", "cz": "Je to kolo?"},
+    {"who": "Ella", "en": "No, it isn’t. It’s small.", "cz": "Ne, není. Je to malé."},
+    {"who": "Max", "en": "Listen! What’s that noise? Is it a dog?", "cz": "Poslouchej! Co je to za zvuk? Je to pes?"},
+    {"who": "Ella", "en": "Yes, it is! Surprise!", "cz": "Ano, je! Překvapení!"},
+    {"who": "Max", "en": "A little brown dog! Thank you, Ella!", "cz": "Malý hnědý pejsek! Děkuju, Ello!"}
+   ],
+   "qs": [
+    {"q": "When is Max’s birthday?", "opts": ["in July", "in May", "in March"], "a": "in July", "line": 4},
+    {"q": "Is it a bike?", "opts": ["No, it isn’t.", "Yes, it is."], "a": "No, it isn’t.", "line": 6},
+    {"q": "What is in the box?", "opts": ["a dog", "a bike", "a ball"], "a": "a dog", "line": 8},
+    {"q": "What colour is the dog?", "opts": ["brown", "black", "white"], "a": "brown", "line": 9}
+   ]
+  }
+ ],
+ "readings": [],
+ "writing": [
+  {
+   "id": "h-w1",
+   "title": "About me",
+   "e": "🙋",
+   "task": "Write about you: your name, how old you are and when your birthday is.",
+   "cz": "Napiš o sobě: jak se jmenuješ, kolik ti je let a kdy máš narozeniny.",
+   "placeholder": "Hello, I’m … I’m … My birthday is in …",
+   "focus": "I’m, How old, In (month)"
+  }
+ ],
+ "missions": [
+  {"id": "h-m1", "where": "Doma", "cz": "Najdi doma 5 věcí a řekni anglicky jejich barvu. Třeba: It’s red."},
+  {"id": "h-m2", "where": "Doma", "cz": "Zahraj si s někým hru I see something … (barva) a hádejte, co to je."},
+  {"id": "h-m3", "where": "Doma", "cz": "Zeptej se mámy nebo táty anglicky: When’s your birthday? Zkus odpověď říct taky anglicky."}
+ ]
+}

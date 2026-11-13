@@ -1,0 +1,185 @@
+{
+ "schema": 1,
+ "id": "nz-r01-hello",
+ "course": "nz",
+ "courseTitle": "Nový Zéland",
+ "order": 1,
+ "title": "Hello, New Zealand!",
+ "cz": "Na cestu: pozdravy, zvířata a pláž",
+ "version": 1,
+ "subjects": ["angličtina", "vlastivěda", "přírodověda"],
+ "people": {
+  "Max": {"e": "👦", "pitch": 0.9, "gender": "m", "voice": 1},
+  "Aroha": {"e": "👩", "pitch": 1.15, "gender": "f", "voice": 0}
+ },
+ "lessons": [
+  {
+   "id": "nzr-hello",
+   "e": "👋",
+   "art": "a4",
+   "title": "Kia ora!",
+   "cz": "Pozdravy a první slova na cestu",
+   "intro": "<p>Na Novém Zélandu se mluví anglicky. Uslyšíš tam ale i pozdrav <b>Kia ora!</b> z jazyka Maorů, kteří tam žili jako první.</p><div class=\"rule\"><b>Please</b> = prosím · <b>Thank you</b> = děkuji<br>Tahle dvě slova se ti budou hodit každý den.</div>",
+   "words": [
+    ["👋", "Hello!", "Ahoj! Dobrý den!"],
+    ["🌺", "Kia ora!", "Ahoj! (pozdrav Maorů)"],
+    ["🙏", "Thank you.", "Děkuji."],
+    ["😊", "Please.", "Prosím."],
+    ["🌏", "New Zealand", "Nový Zéland"],
+    ["✈️", "plane", "letadlo"],
+    ["🧳", "suitcase", "kufr"],
+    ["🗺️", "map", "mapa"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "🙏 Jak řekneš „děkuji“?", "opts": ["Thank you.", "Please.", "Hello!"], "a": "Thank you."},
+    {"t": "listen", "say": "plane", "cz": "letadlo", "opts": ["plane", "map", "suitcase"], "a": "plane"},
+    {"t": "pair", "q": "Spoj obrázek se slovem.", "pairs": [["✈️", "plane"], ["🧳", "suitcase"], ["🗺️", "map"], ["🌏", "New Zealand"]]},
+    {"t": "gap", "s": "Can I have some water, ___? 💧", "opts": ["please", "thank you", "hello"], "a": "please", "why": "Když o něco žádáš, přidáš please (prosím)."},
+    {"t": "mc", "q": "🌺 Co znamená <b>Kia ora!</b>?", "opts": ["Ahoj!", "Děkuji.", "Na shledanou."], "a": "Ahoj!"},
+    {"t": "listen", "say": "suitcase", "cz": "kufr", "opts": ["suitcase", "plane", "present"], "a": "suitcase"},
+    {"t": "build", "cz": "Ahoj, jsem z České republiky.", "a": "Hello, I’m from the Czech Republic.", "extra": ["is", "in"]},
+    {"t": "build", "cz": "Moc děkuji.", "a": "Thank you very much.", "extra": ["please", "big"]},
+    {"t": "speak", "a": "Hello! Thank you very much."}
+   ]
+  },
+  {
+   "id": "nzr-animals",
+   "e": "🥝",
+   "art": "a2",
+   "title": "Animals",
+   "cz": "Zvířata Nového Zélandu",
+   "intro": "<p><b>Kiwi</b> je malý hnědý pták, který neumí létat. Je symbolem Nového Zélandu. A ještě něco: na Novém Zélandu žije víc ovcí než lidí!</p>",
+   "words": [
+    ["🥝", "kiwi", "kivi (pták)"],
+    ["🐑", "sheep", "ovce"],
+    ["🐧", "penguin", "tučňák"],
+    ["🐬", "dolphin", "delfín"],
+    ["🐋", "whale", "velryba"],
+    ["🦭", "seal", "tuleň"],
+    ["🐦", "bird", "pták"],
+    ["🐟", "fish", "ryba"]
+   ],
+   "ex": [
+    {"t": "listen", "say": "dolphin", "cz": "delfín", "opts": ["dolphin", "penguin", "sheep"], "a": "dolphin"},
+    {"t": "mc", "q": "🥝 A kiwi is a …", "say": "A kiwi is a bird.", "opts": ["bird", "fish", "sheep"], "a": "bird", "why": "Kiwi je pták: bird. Jmenuje se stejně jako ovoce kiwi."},
+    {"t": "pair", "q": "Spoj zvíře se slovem.", "pairs": [["🐑", "sheep"], ["🐋", "whale"], ["🦭", "seal"], ["🐧", "penguin"]]},
+    {"t": "mc", "q": "🥝 Can a kiwi fly?", "say": "Can a kiwi fly?", "opts": ["No, it can’t.", "Yes, it can."], "a": "No, it can’t.", "why": "Kiwi létat neumí. U zvířat říkáme it: No, it can’t."},
+    {"t": "gap", "s": "🐬 A dolphin can ___.", "opts": ["swim", "fly", "draw"], "a": "swim"},
+    {"t": "mc", "q": "🐑 What colour is the sheep?", "say": "What colour is the sheep?", "opts": ["white", "green", "blue"], "a": "white"},
+    {"t": "listen", "say": "penguin", "cz": "tučňák", "opts": ["penguin", "dolphin", "whale"], "a": "penguin"},
+    {"t": "build", "cz": "Vidím velrybu!", "a": "I can see a whale!", "extra": ["the", "are"]},
+    {"t": "dict", "a": "sheep"},
+    {"t": "speak", "a": "Look! A dolphin!"}
+   ]
+  },
+  {
+   "id": "nzr-beach",
+   "e": "🏖️",
+   "art": "a6",
+   "title": "At the beach",
+   "cz": "Na pláži: v prosinci je tam léto!",
+   "intro": "<p>Nový Zéland je na druhé straně Země. Když je u nás zima, je tam <b>summer</b> (léto). Vánoce se tam slaví v kraťasech, často na pláži!</p>",
+   "words": [
+    ["☀️", "summer", "léto"],
+    ["🏖️", "beach", "pláž"],
+    ["🌊", "sea", "moře"],
+    ["🌞", "sun", "slunce"],
+    ["🥵", "hot", "horko, horký"],
+    ["🍦", "ice cream", "zmrzlina"],
+    ["🩳", "shorts", "kraťasy"],
+    ["🕶️", "sunglasses", "sluneční brýle"],
+    ["🧴", "sun cream", "opalovací krém"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "🎄 V prosinci je na Novém Zélandu…", "opts": ["summer", "winter", "night"], "a": "summer", "why": "Na jižní polokouli je v prosinci léto: summer."},
+    {"t": "listen", "say": "ice cream", "cz": "zmrzlina", "opts": ["ice cream", "sun cream", "sea"], "a": "ice cream"},
+    {"t": "pair", "q": "Spoj obrázek se slovem.", "pairs": [["🌊", "sea"], ["🩳", "shorts"], ["🕶️", "sunglasses"], ["🏖️", "beach"]]},
+    {"t": "gap", "s": "☀️ It’s very ___ today.", "opts": ["hot", "blue", "small"], "a": "hot"},
+    {"t": "mc", "q": "🧴 Co si dáš na kůži proti slunci?", "opts": ["sun cream", "ice cream", "sea"], "a": "sun cream", "why": "Sun cream = opalovací krém. Ice cream je zmrzlina, ta na kůži nepatří 🙂"},
+    {"t": "type", "s": "🌊 moře = ___", "a": ["sea"]},
+    {"t": "build", "cz": "Můžu dostat zmrzlinu, prosím?", "a": "Can I have an ice cream, please?", "extra": ["a", "you"]},
+    {"t": "listen", "say": "sunglasses", "cz": "sluneční brýle", "opts": ["sunglasses", "shorts", "summer"], "a": "sunglasses"},
+    {"t": "speak", "a": "Can I have an ice cream, please?"}
+   ]
+  }
+ ],
+ "practice": [],
+ "dialogs": [
+  {
+   "id": "nzr-d1",
+   "title": "Ice cream, please!",
+   "cz": "Zmrzlinu, prosím!",
+   "people": ["Aroha", "Max"],
+   "lines": [
+    {"who": "Aroha", "en": "Kia ora! Hello!", "cz": "Kia ora! Dobrý den!"},
+    {"who": "Max", "en": "Hello! Can I have an ice cream, please?", "cz": "Dobrý den! Můžu dostat zmrzlinu, prosím?"},
+    {"who": "Aroha", "en": "Yes, of course. Chocolate or strawberry?", "cz": "Ano, samozřejmě. Čokoládovou, nebo jahodovou?"},
+    {"who": "Max", "en": "Chocolate, please.", "cz": "Čokoládovou, prosím."},
+    {"who": "Aroha", "en": "Here you are. That’s four dollars.", "cz": "Tady máš. To dělá čtyři dolary."},
+    {"who": "Max", "en": "Here you are. Thank you!", "cz": "Tady jsou. Děkuju!"},
+    {"who": "Aroha", "en": "Thank you! Where are you from?", "cz": "Děkuju! Odkud jsi?"},
+    {"who": "Max", "en": "I’m from the Czech Republic.", "cz": "Jsem z České republiky."},
+    {"who": "Aroha", "en": "Wow! Welcome to New Zealand! Have fun at the beach!", "cz": "Páni! Vítej na Novém Zélandu! Užij si pláž!"}
+   ],
+   "qs": [
+    {"q": "What does Max want?", "opts": ["an ice cream", "a sandwich", "a ball"], "a": "an ice cream", "line": 1},
+    {"q": "Chocolate or strawberry?", "opts": ["chocolate", "strawberry"], "a": "chocolate", "line": 3},
+    {"q": "How much is the ice cream?", "opts": ["four dollars", "two dollars", "twelve dollars"], "a": "four dollars", "line": 4},
+    {"q": "Where is Max from?", "opts": ["the Czech Republic", "New Zealand", "England"], "a": "the Czech Republic", "line": 7}
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "nzr-r1",
+   "title": "The kiwi",
+   "cz": "Kiwi, pták, který neumí létat",
+   "subject": "přírodověda",
+   "paragraphs": [
+    {"en": "The kiwi is a bird from New Zealand. It is small and brown.", "cz": "Kiwi je pták z Nového Zélandu. Je malý a hnědý."},
+    {"en": "A kiwi can’t fly. But it can run fast!", "cz": "Kiwi neumí létat. Ale umí rychle běhat!"},
+    {"en": "A kiwi has got a long beak. It looks for food at night.", "cz": "Kiwi má dlouhý zobák. Jídlo hledá v noci."},
+    {"en": "People from New Zealand are called Kiwis too!", "cz": "Lidem z Nového Zélandu se taky říká Kiwi!"}
+   ],
+   "glossary": [
+    ["bird", "pták"],
+    ["small", "malý"],
+    ["fly", "létat"],
+    ["fast", "rychle"],
+    ["has got", "má"],
+    ["long", "dlouhý"],
+    ["beak", "zobák"],
+    ["looks for", "hledá"],
+    ["food", "jídlo"],
+    ["at night", "v noci"],
+    ["are called", "říká se jim"]
+   ],
+   "qs": [
+    {"q": "What colour is the kiwi?", "opts": ["brown", "green", "white"], "a": "brown"},
+    {"q": "Can a kiwi fly?", "opts": ["No, it can’t.", "Yes, it can."], "a": "No, it can’t."},
+    {"q": "When does a kiwi look for food?", "opts": ["at night", "in the morning", "at lunch"], "a": "at night"}
+   ],
+   "think": "Proč asi kiwi neumí létat? Nápověda: na Novém Zélandu kdysi nežily žádné šelmy, před kterými by musel utíkat do vzduchu."
+  }
+ ],
+ "writing": [
+  {
+   "id": "nzr-w1",
+   "title": "A postcard",
+   "e": "💌",
+   "task": "Write a postcard from New Zealand. What can you see? What can you do?",
+   "cz": "Napiš anglicky pohled z Nového Zélandu, třeba babičce. Co vidíš? Co můžeš dělat?",
+   "placeholder": "Hello from New Zealand! It’s hot. I can see … I can …",
+   "focus": "I can see, It’s hot, colours"
+  }
+ ],
+ "missions": [
+  {"id": "nzr-m1", "where": "Letadlo", "cz": "V letadle nebo na letišti řekni anglicky Please a Thank you."},
+  {"id": "nzr-m2", "where": "Obchod", "cz": "Kup si zmrzlinu a řekni sám: Can I have an ice cream, please?"},
+  {"id": "nzr-m3", "where": "Na cestě", "cz": "Vyfoť ovci a řekni anglicky, jakou má barvu: It’s white."},
+  {"id": "nzr-m4", "where": "Na cestě", "cz": "Spočítej anglicky ovce na louce: one, two, three… Kolik jich bylo?"},
+  {"id": "nzr-m5", "where": "Pláž", "cz": "Najdi na pláži 3 věci a řekni anglicky, jakou mají barvu."},
+  {"id": "nzr-m6", "where": "Kdekoli", "cz": "Pozdrav někoho Kia ora! a podívej se, jak odpoví."},
+  {"id": "nzr-m7", "where": "Zoo nebo park", "cz": "Najdi kiwi (bývají v tmavém „kiwi house“, protože jsou vzhůru v noci). Řekni: Look! A kiwi!"}
+ ]
+}

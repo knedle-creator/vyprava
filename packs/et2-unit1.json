@@ -1,0 +1,225 @@
+{
+ "schema": 1,
+ "id": "et2-unit1",
+ "course": "explore2",
+ "courseTitle": "Explore Together 2",
+ "order": 2,
+ "title": "Unit 1: Let’s play!",
+ "cz": "Lekce 1: Co umíš? Sporty, hudba a Can you…?",
+ "version": 1,
+ "people": {
+  "Max": {"e": "👦", "pitch": 0.9, "gender": "m", "voice": 1},
+  "Ella": {"e": "👧", "pitch": 1.2, "gender": "f", "voice": 0}
+ },
+ "lessons": [
+  {
+   "id": "u1-play",
+   "e": "⚽",
+   "art": "a2",
+   "title": "Let’s play!",
+   "cz": "Sporty a hudební nástroje",
+   "intro": "<p>Anglicky se „hrát“ fotbal i „hrát“ na klavír řekne stejně: <b>play</b>.</p><div class=\"rule\">U nástrojů je navíc <b>the</b>: play <b>the</b> piano, play <b>the</b> drums.<br>U sportů ne: play football, play tennis.</div>",
+   "words": [
+    ["🎮", "play computer games", "hrát počítačové hry"],
+    ["⚽", "play football", "hrát fotbal"],
+    ["🏀", "play basketball", "hrát basketbal"],
+    ["🎾", "play tennis", "hrát tenis"],
+    ["🎹", "play the piano", "hrát na klavír"],
+    ["🎻", "play the violin", "hrát na housle"],
+    ["🥁", "play the drums", "hrát na bubny"],
+    ["🎶", "play the recorder", "hrát na flétnu"],
+    ["🎸", "play the guitar", "hrát na kytaru"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "⚽ Co to je?", "opts": ["play football", "play tennis", "play the drums"], "a": "play football"},
+    {"t": "listen", "say": "play the drums", "cz": "hrát na bubny", "opts": ["play the drums", "play the piano", "play basketball"], "a": "play the drums"},
+    {"t": "pair", "q": "Spoj obrázek s anglickým slovem.", "pairs": [["🎾", "tennis"], ["🎻", "violin"], ["🏀", "basketball"], ["🎹", "piano"]]},
+    {"t": "gap", "s": "🎹 I can play ___ piano.", "opts": ["the", "a", "in"], "a": "the", "why": "U hudebních nástrojů říkáme the: play the piano."},
+    {"t": "mc", "q": "🎻 Jak se řekne „hrát na housle“?", "opts": ["play the violin", "play the guitar", "play the recorder"], "a": "play the violin"},
+    {"t": "listen", "say": "play computer games", "cz": "hrát počítačové hry", "opts": ["play computer games", "play football", "play the guitar"], "a": "play computer games"},
+    {"t": "build", "cz": "Umím hrát na klavír.", "a": "I can play the piano.", "extra": ["a", "plays"]},
+    {"t": "build", "cz": "Neumím hrát tenis.", "a": "I can’t play tennis.", "extra": ["the", "can"]},
+    {"t": "speak", "a": "I can play the recorder."},
+    {"t": "speak", "a": "I can’t play the violin."}
+   ]
+  },
+  {
+   "id": "u1-canyou",
+   "e": "🙋",
+   "art": "a4",
+   "title": "Can you…?",
+   "cz": "Umíš…? Yes, I can. / No, I can’t.",
+   "intro": "<p>Když se chceš zeptat, jestli někdo něco umí, začni slovem <b>Can</b>.</p><div class=\"rule\"><b>Can you play tennis?</b> = Umíš hrát tenis?<br><b>Yes, I can.</b> = Ano, umím.<br><b>No, I can’t.</b> = Ne, neumím.</div>",
+   "words": [
+    ["❓", "Can you …?", "Umíš …?"],
+    ["👍", "Yes, I can.", "Ano, umím."],
+    ["👎", "No, I can’t.", "Ne, neumím."],
+    ["💪", "I can", "umím"],
+    ["🙅", "I can’t", "neumím"],
+    ["😬", "Sorry!", "Promiň!"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "Odpověz <b>ANO</b>: Can you play football?", "say": "Can you play football?", "opts": ["Yes, I can.", "Yes, it is.", "No, I can’t."], "a": "Yes, I can.", "why": "Na otázku s Can odpovídáme taky s can: Yes, I can."},
+    {"t": "mc", "q": "Odpověz <b>NE</b>: Can you play the violin?", "say": "Can you play the violin?", "opts": ["No, I can’t.", "No, it isn’t.", "Yes, I can."], "a": "No, I can’t."},
+    {"t": "gap", "s": "___ you play tennis? Yes, I can.", "opts": ["Can", "Is", "Are"], "a": "Can"},
+    {"t": "gap", "s": "Can you play the drums? No, I ___.", "opts": ["can’t", "isn’t", "can"], "a": "can’t", "why": "No = ne, takže potřebuješ can’t (neumím)."},
+    {"t": "listen", "say": "Can you play the piano?", "cz": "Umíš hrát na klavír?", "opts": ["Can you play the piano?", "Can you play the guitar?", "I can play the piano."], "a": "Can you play the piano?"},
+    {"t": "pair", "q": "Spoj anglicky a česky.", "pairs": [["I can", "umím"], ["I can’t", "neumím"], ["Can you…?", "Umíš…?"], ["Sorry!", "Promiň!"]]},
+    {"t": "build", "cz": "Umíš hrát basketbal?", "a": "Can you play basketball?", "extra": ["the", "are"]},
+    {"t": "build", "cz": "Ano, umím.", "a": "Yes, I can.", "extra": ["can’t", "it"]},
+    {"t": "dict", "a": "No, I can’t."},
+    {"t": "speak", "a": "Can you play football?"}
+   ]
+  },
+  {
+   "id": "u1-skills",
+   "e": "🛹",
+   "art": "a1",
+   "title": "Super skills",
+   "cz": "Co ještě umíš: plavat, bruslit, malovat…",
+   "intro": "<p>Tady jsou další věci, které se dají umět. Všechny se dají použít s <b>I can</b> nebo <b>I can’t</b>.</p><div class=\"rule\"><b>I can swim and I can draw.</b> = Umím plavat a umím kreslit.</div>",
+   "words": [
+    ["🛹", "skateboard", "jezdit na skateboardu"],
+    ["🤸", "dive", "skákat do vody"],
+    ["🏊", "swim", "plavat"],
+    ["✏️", "draw", "kreslit"],
+    ["⛸️", "skate", "bruslit"],
+    ["🎨", "paint", "malovat (barvami)"],
+    ["🐴", "ride a horse", "jezdit na koni"],
+    ["🏃", "run", "běhat"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "⛸️ Co to je?", "opts": ["skate", "swim", "draw"], "a": "skate"},
+    {"t": "listen", "say": "ride a horse", "cz": "jezdit na koni", "opts": ["ride a horse", "run", "paint"], "a": "ride a horse"},
+    {"t": "pair", "q": "Spoj obrázek se slovem.", "pairs": [["🏊", "swim"], ["✏️", "draw"], ["🛹", "skateboard"], ["🏃", "run"]]},
+    {"t": "gap", "s": "🐟 A fish can ___.", "opts": ["swim", "draw", "paint"], "a": "swim", "why": "Ryba umí plavat: swim."},
+    {"t": "listen", "say": "paint", "cz": "malovat", "opts": ["paint", "skate", "dive"], "a": "paint"},
+    {"t": "type", "s": "🎨 I can ___. (malovat)", "a": ["paint"]},
+    {"t": "mc", "q": "Draw nebo paint? 🖍️ Kreslíš pastelkou:", "opts": ["draw", "paint", "dive"], "a": "draw", "why": "Draw = kreslit (tužkou, pastelkou). Paint = malovat barvami a štětcem."},
+    {"t": "build", "cz": "Umím plavat a kreslit.", "a": "I can swim and draw.", "extra": ["can’t", "skate"]},
+    {"t": "build", "cz": "Neumím jezdit na koni.", "a": "I can’t ride a horse.", "extra": ["the", "can"]},
+    {"t": "speak", "a": "I can skate and I can paint."}
+   ]
+  },
+  {
+   "id": "u1-heshe",
+   "e": "👫",
+   "art": "a3",
+   "title": "Can he? Can she?",
+   "cz": "Umí on? Umí ona?",
+   "intro": "<p>Když mluvíš o někom jiném, místo <b>you</b> řekneš <b>he</b> nebo <b>she</b>.</p><div class=\"rule\"><b>he</b> = on (kluk, muž) · <b>she</b> = ona (holka, žena)<br><b>Can she skate?</b> – <b>Yes, she can.</b><br><b>Can he dive?</b> – <b>No, he can’t.</b></div>",
+   "words": [
+    ["👦", "he", "on"],
+    ["👧", "she", "ona"],
+    ["❓", "Can she skate?", "Umí (ona) bruslit?"],
+    ["👍", "Yes, she can.", "Ano, umí."],
+    ["👎", "No, he can’t.", "Ne, (on) neumí."],
+    ["🦸", "sister / brother", "sestra / bratr"]
+   ],
+   "ex": [
+    {"t": "mc", "q": "👧 Ella. Jak se zeptáš, jestli umí plavat?", "opts": ["Can she swim?", "Can he swim?", "Can you swim?"], "a": "Can she swim?", "why": "Ella je holka, takže she: Can she swim?"},
+    {"t": "mc", "q": "👦 Max can’t dive. Can he dive?", "say": "Can he dive?", "opts": ["No, he can’t.", "No, she can’t.", "Yes, he can."], "a": "No, he can’t."},
+    {"t": "gap", "s": "My sister can ride a horse. ___ can run too.", "opts": ["She", "He", "It"], "a": "She", "why": "Sestra je ona: she."},
+    {"t": "gap", "s": "My brother can play the guitar. ___ can sing too.", "opts": ["He", "She", "You"], "a": "He"},
+    {"t": "pair", "q": "Spoj anglicky a česky.", "pairs": [["he", "on"], ["she", "ona"], ["sister", "sestra"], ["brother", "bratr"]]},
+    {"t": "listen", "say": "She can draw.", "cz": "Ona umí kreslit.", "opts": ["She can draw.", "He can draw.", "She can’t draw."], "a": "She can draw."},
+    {"t": "build", "cz": "Umí (ona) bruslit?", "a": "Can she skate?", "extra": ["he", "you"]},
+    {"t": "build", "cz": "Ne, (on) neumí.", "a": "No, he can’t.", "extra": ["she", "can"]},
+    {"t": "dict", "a": "Yes, she can."},
+    {"t": "speak", "a": "My brother can play football."}
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "id": "u1-sounds",
+   "e": "🗣️",
+   "title": "Sounds: v and b",
+   "cz": "Výslovnost: v a b",
+   "ex": [
+    {"t": "listen", "say": "violin", "cz": "housle", "opts": ["violin", "basketball", "bike"], "a": "violin"},
+    {"t": "speak", "a": "Val can play the violin."},
+    {"t": "listen", "say": "basketball", "cz": "basketbal", "opts": ["basketball", "violin", "box"], "a": "basketball"},
+    {"t": "speak", "a": "Ben can play basketball."},
+    {"t": "speak", "a": "A very big blue box."},
+    {"t": "dict", "a": "Ben can play basketball."}
+   ]
+  }
+ ],
+ "dialogs": [
+  {
+   "id": "u1-d1",
+   "title": "In the park",
+   "cz": "V parku",
+   "people": ["Max", "Ella"],
+   "lines": [
+    {"who": "Max", "en": "Hi, Ella! What’s that?", "cz": "Ahoj, Ello! Co je to?"},
+    {"who": "Ella", "en": "It’s my new skateboard. Can you skateboard, Max?", "cz": "To je můj nový skateboard. Umíš jezdit na skateboardu, Maxi?"},
+    {"who": "Max", "en": "No, I can’t. Can you?", "cz": "Ne, neumím. A ty?"},
+    {"who": "Ella", "en": "Yes, I can. Watch me!", "cz": "Ano, umím. Dívej se!"},
+    {"who": "Max", "en": "Wow! You’re very good!", "cz": "Páni! Jsi fakt dobrá!"},
+    {"who": "Ella", "en": "Thanks! Can you play the guitar?", "cz": "Díky! Umíš hrát na kytaru?"},
+    {"who": "Max", "en": "Yes, I can. And I can sing too.", "cz": "Ano, umím. A umím taky zpívat."},
+    {"who": "Ella", "en": "Great! Sing a song for me, please!", "cz": "Super! Zazpívej mi prosím písničku!"},
+    {"who": "Max", "en": "OK. Listen!", "cz": "Dobře. Poslouchej!"}
+   ],
+   "qs": [
+    {"q": "Can Max skateboard?", "opts": ["No, he can’t.", "Yes, he can."], "a": "No, he can’t.", "line": 2},
+    {"q": "Who can skateboard?", "opts": ["Ella", "Max"], "a": "Ella", "line": 3},
+    {"q": "What can Max play?", "opts": ["the guitar", "the piano", "football"], "a": "the guitar", "line": 6},
+    {"q": "What can Max do too?", "opts": ["sing", "swim", "paint"], "a": "sing", "line": 6}
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "u1-r1",
+   "title": "Music around the world",
+   "cz": "Hudba z celého světa",
+   "subject": "hudební výchova a zeměpis",
+   "paragraphs": [
+    {"en": "People play music in every country. Let’s go to India, South America and Nigeria.", "cz": "Lidé hrají hudbu v každé zemi. Pojďme do Indie, Jižní Ameriky a Nigérie."},
+    {"en": "In India, people play the sitar. It is like a guitar. They play drums too. The drums are made from wood.", "cz": "V Indii lidé hrají na sitár. Je podobný kytaře. Hrají taky na bubny. Bubny jsou ze dřeva."},
+    {"en": "In South America, people play flutes, big drums and small guitars.", "cz": "V Jižní Americe lidé hrají na flétny, velké bubny a malé kytary."},
+    {"en": "In Nigeria, people play shakers. A shaker is made from a plant and seashells. Shake, shake, shake!", "cz": "V Nigérii lidé hrají na chrastítka. Chrastítko je z rostliny a mušlí. Třes, třes, třes!"}
+   ],
+   "glossary": [
+    ["people", "lidé"],
+    ["country", "země, stát"],
+    ["sitar", "sitár (indický nástroj)"],
+    ["like", "jako, podobný"],
+    ["made from", "vyrobený z"],
+    ["wood", "dřevo"],
+    ["flute", "flétna"],
+    ["small", "malý"],
+    ["big", "velký"],
+    ["shaker", "chrastítko, šejkr"],
+    ["plant", "rostlina"],
+    ["seashells", "mušle"],
+    ["shake", "třást, chrastit"]
+   ],
+   "qs": [
+    {"q": "Where do people play the sitar?", "opts": ["in India", "in Nigeria", "in South America"], "a": "in India"},
+    {"q": "What is a shaker made from?", "opts": ["a plant and seashells", "wood", "a guitar"], "a": "a plant and seashells"},
+    {"q": "Where do people play small guitars?", "opts": ["in South America", "in India", "in Nigeria"], "a": "in South America"}
+   ],
+   "think": "Na jaký nástroj bys chtěl umět hrát? Zkus to říct anglicky: I want to play the …"
+  }
+ ],
+ "writing": [
+  {
+   "id": "u1-w1",
+   "title": "My super skills",
+   "e": "🦸",
+   "task": "Write what you can and can’t do.",
+   "cz": "Napiš, co umíš a co neumíš. Třeba: I can swim. I can’t play the piano.",
+   "placeholder": "I can … I can’t …",
+   "focus": "I can, I can’t, play the …"
+  }
+ ],
+ "missions": [
+  {"id": "u1-m1", "where": "Ve škole", "cz": "Zeptej se kamaráda anglicky: Can you skateboard? Can you play the piano? Poslouchej, co odpoví."},
+  {"id": "u1-m2", "where": "Doma", "cz": "Zahrajte si pantomimu: ty předvádíš sport nebo nástroj, ostatní hádají anglicky (play tennis!)."},
+  {"id": "u1-m3", "where": "Doma", "cz": "Řekni o někom z rodiny 3 věci, které umí. Třeba: My sister can swim."}
+ ]
+}
