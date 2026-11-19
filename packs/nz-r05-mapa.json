@@ -1,0 +1,810 @@
+{
+ "schema": 1,
+ "id": "nz-r05-mapa",
+ "course": "nz",
+ "courseTitle": "Nový Zéland",
+ "order": 5,
+ "title": "The map of New Zealand",
+ "cz": "Mapa: ostrovy, hory, řeky a jezera",
+ "version": 1,
+ "subjects": [
+  "angličtina",
+  "vlastivěda"
+ ],
+ "people": {
+  "Max": {
+   "e": "👦",
+   "pitch": 0.9,
+   "gender": "m",
+   "voice": 1
+  },
+  "Aroha": {
+   "e": "👩",
+   "pitch": 1.15,
+   "gender": "f",
+   "voice": 0
+  }
+ },
+ "lessons": [
+  {
+   "id": "nzr-islands",
+   "e": "🗺️",
+   "art": "a5",
+   "title": "Islands",
+   "cz": "Dva velké ostrovy",
+   "intro": "<p>Nový Zéland má dva velké ostrovy: <b>North Island</b> (Severní ostrov) a <b>South Island</b> (Jižní ostrov). Kolem nich je spousta malých ostrůvků. Vy pojedete na Severní ostrov.</p><div class=\"rule\"><b>north</b> = sever · <b>south</b> = jih<br><b>east</b> = východ · <b>west</b> = západ</div>",
+   "words": [
+    [
+     "🏝️",
+     "island",
+     "ostrov"
+    ],
+    [
+     "⬆️",
+     "north",
+     "sever"
+    ],
+    [
+     "⬇️",
+     "south",
+     "jih"
+    ],
+    [
+     "➡️",
+     "east",
+     "východ"
+    ],
+    [
+     "⬅️",
+     "west",
+     "západ"
+    ],
+    [
+     "🧭",
+     "compass",
+     "kompas"
+    ],
+    [
+     "🌊",
+     "ocean",
+     "oceán"
+    ],
+    [
+     "🏙️",
+     "city",
+     "velké město"
+    ],
+    [
+     "🗺️",
+     "map",
+     "mapa"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "⬆️ Jak se řekne <b>sever</b>?",
+     "opts": [
+      "north",
+      "south",
+      "east"
+     ],
+     "a": "north"
+    },
+    {
+     "t": "listen",
+     "say": "south",
+     "cz": "jih",
+     "opts": [
+      "south",
+      "sun",
+      "sock"
+     ],
+     "a": "south"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj šipku se světovou stranou.",
+     "pairs": [
+      [
+       "⬆️",
+       "north"
+      ],
+      [
+       "⬇️",
+       "south"
+      ],
+      [
+       "➡️",
+       "east"
+      ],
+      [
+       "⬅️",
+       "west"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🏝️ How many big islands has New Zealand got?",
+     "opts": [
+      "two",
+      "ten",
+      "one"
+     ],
+     "a": "two"
+    },
+    {
+     "t": "gap",
+     "s": "🗺️ Auckland is on the ___ Island.",
+     "opts": [
+      "North",
+      "South",
+      "Christmas"
+     ],
+     "a": "North",
+     "why": "Auckland, největší město, je na Severním ostrově."
+    },
+    {
+     "t": "mc",
+     "q": "🧭 The sun comes up in the …",
+     "opts": [
+      "east",
+      "west",
+      "south"
+     ],
+     "a": "east",
+     "why": "Slunce vychází na východě všude na světě, i na Zélandu."
+    },
+    {
+     "t": "gap",
+     "s": "🌊 The Pacific ___ is next to New Zealand.",
+     "opts": [
+      "Ocean",
+      "lake",
+      "river"
+     ],
+     "a": "Ocean",
+     "why": "Na východ od Zélandu je Tichý oceán, anglicky Pacific Ocean."
+    },
+    {
+     "t": "mc",
+     "q": "🏙️ The capital city of New Zealand is …",
+     "opts": [
+      "Wellington",
+      "Auckland",
+      "Prague"
+     ],
+     "a": "Wellington",
+     "why": "Hlavní město je Wellington na jihu Severního ostrova. Auckland je větší, ale hlavní město to není."
+    },
+    {
+     "t": "build",
+     "cz": "Auckland je velké město.",
+     "a": "Auckland is a big city.",
+     "extra": [
+      "are",
+      "small"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "New Zealand has got two big islands."
+    },
+    {
+     "t": "speak",
+     "a": "We’re going to the North Island!"
+    }
+   ]
+  },
+  {
+   "id": "nzr-rivers",
+   "e": "🏞️",
+   "art": "a2",
+   "title": "Mountains, rivers and lakes",
+   "cz": "Hory, řeky a jezera",
+   "intro": "<p>Na Severním ostrově je obří jezero <b>Taupō</b> (vlastně kráter sopky), nejdelší řeka Zélandu <b>Waikato</b> a řeka <b>Whanganui</b>, po které se jezdí na kánoích. A Whanganui je podle zákona <b>osoba</b>!</p><div class=\"rule\"><b>long</b> = dlouhý · <b>big</b> = velký · <b>high</b> = vysoký (hora)</div>",
+   "words": [
+    [
+     "⛰️",
+     "mountain",
+     "hora"
+    ],
+    [
+     "🏞️",
+     "river",
+     "řeka"
+    ],
+    [
+     "💧",
+     "lake",
+     "jezero"
+    ],
+    [
+     "🛶",
+     "canoe",
+     "kánoe"
+    ],
+    [
+     "🚣",
+     "paddle",
+     "pádlo, pádlovat"
+    ],
+    [
+     "📏",
+     "long",
+     "dlouhý"
+    ],
+    [
+     "⬆️",
+     "high",
+     "vysoký"
+    ],
+    [
+     "🐟",
+     "fish",
+     "ryba, rybařit"
+    ],
+    [
+     "🎣",
+     "fishing rod",
+     "rybářský prut"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🏞️ Jak se řekne <b>řeka</b>?",
+     "opts": [
+      "river",
+      "rock",
+      "road"
+     ],
+     "a": "river"
+    },
+    {
+     "t": "listen",
+     "say": "lake",
+     "cz": "jezero",
+     "opts": [
+      "lake",
+      "leg",
+      "lamp"
+     ],
+     "a": "lake"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "⛰️",
+       "mountain"
+      ],
+      [
+       "🏞️",
+       "river"
+      ],
+      [
+       "💧",
+       "lake"
+      ],
+      [
+       "🛶",
+       "canoe"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "💧 Lake Taupō is the biggest lake in New Zealand. Is it bigger than Prague?",
+     "opts": [
+      "Yes, it is!",
+      "No, it isn’t."
+     ],
+     "a": "Yes, it is!",
+     "say": "Is it bigger than Prague?",
+     "why": "Jezero Taupō má 616 km², Praha jen asi 496 km². Celá Praha by se do něj vešla!"
+    },
+    {
+     "t": "gap",
+     "s": "🏞️ The Waikato is the ___ river in New Zealand.",
+     "opts": [
+      "longest",
+      "smallest",
+      "hottest"
+     ],
+     "a": "longest",
+     "why": "Waikato je nejdelší řeka Zélandu, měří přes 400 km."
+    },
+    {
+     "t": "mc",
+     "q": "🛶 What can you do on the Whanganui River?",
+     "opts": [
+      "paddle a canoe",
+      "ski",
+      "ride a horse"
+     ],
+     "a": "paddle a canoe"
+    },
+    {
+     "t": "mc",
+     "q": "🧑 In New Zealand law, the Whanganui River is a …",
+     "opts": [
+      "person",
+      "fish",
+      "car"
+     ],
+     "a": "person",
+     "why": "Maorové u řeky říkají: Já jsem řeka a řeka jsem já. Od roku 2017 má řeka podle zákona práva jako člověk."
+    },
+    {
+     "t": "gap",
+     "s": "🎣 I’ve got a fishing rod. I want to ___ in the lake.",
+     "opts": [
+      "fish",
+      "fly",
+      "sleep"
+     ],
+     "a": "fish",
+     "why": "Jezero Taupō je slavné pstruhy. Rybaří se tam celý rok."
+    },
+    {
+     "t": "gap",
+     "s": "⬆️ Mount Ruapehu is very ___.",
+     "opts": [
+      "high",
+      "long",
+      "wet"
+     ],
+     "a": "high"
+    },
+    {
+     "t": "build",
+     "cz": "Umím pádlovat na divoké vodě.",
+     "a": "I can paddle on white water.",
+     "extra": [
+      "can’t",
+      "swims"
+     ]
+    },
+    {
+     "t": "speak",
+     "a": "I can paddle a canoe!"
+    }
+   ]
+  },
+  {
+   "id": "nzr-upside",
+   "e": "🙃",
+   "art": "a6",
+   "title": "Upside down",
+   "cz": "Na druhé straně Země",
+   "intro": "<p>Nový Zéland je na druhé straně Země. Když je u nás <b>zima a noc</b>, je tam <b>léto a den</b>. V prosinci tam mají o 12 hodin víc. Když doma obědváš, děti v Aucklandu jdou spát.</p><div class=\"rule\"><b>day</b> = den · <b>night</b> = noc<br><b>summer</b> = léto · <b>winter</b> = zima</div>",
+   "words": [
+    [
+     "☀️",
+     "day",
+     "den"
+    ],
+    [
+     "🌙",
+     "night",
+     "noc"
+    ],
+    [
+     "🏖️",
+     "summer",
+     "léto"
+    ],
+    [
+     "❄️",
+     "winter",
+     "zima"
+    ],
+    [
+     "🌍",
+     "Earth",
+     "Země"
+    ],
+    [
+     "⭐",
+     "stars",
+     "hvězdy"
+    ],
+    [
+     "🕛",
+     "twelve hours",
+     "dvanáct hodin"
+    ],
+    [
+     "🙃",
+     "upside down",
+     "vzhůru nohama"
+    ],
+    [
+     "🚩",
+     "flag",
+     "vlajka"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "❄️ Jak se řekne <b>zima</b> (roční období)?",
+     "opts": [
+      "winter",
+      "summer",
+      "spring"
+     ],
+     "a": "winter"
+    },
+    {
+     "t": "listen",
+     "say": "night",
+     "cz": "noc",
+     "opts": [
+      "night",
+      "nine",
+      "nice"
+     ],
+     "a": "night"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "☀️",
+       "day"
+      ],
+      [
+       "🌙",
+       "night"
+      ],
+      [
+       "🏖️",
+       "summer"
+      ],
+      [
+       "❄️",
+       "winter"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🎄 In December it’s ___ in New Zealand.",
+     "opts": [
+      "summer",
+      "winter"
+     ],
+     "a": "summer"
+    },
+    {
+     "t": "mc",
+     "q": "🕛 It’s 12 o’clock, lunch time in Mrsklesy. What is it in Auckland?",
+     "opts": [
+      "It’s night.",
+      "It’s lunch time.",
+      "It’s morning."
+     ],
+     "a": "It’s night.",
+     "why": "V prosinci je na Zélandu o 12 hodin víc. Poledne u nás je půlnoc v Aucklandu."
+    },
+    {
+     "t": "gap",
+     "s": "⭐ At night you can see the Southern ___.",
+     "opts": [
+      "Cross",
+      "cat",
+      "cake"
+     ],
+     "a": "Cross",
+     "why": "Jižní kříž je souhvězdí, které z Česka neuvidíš. Je i na vlajce Nového Zélandu."
+    },
+    {
+     "t": "mc",
+     "q": "🚩 How many stars are on the New Zealand flag?",
+     "opts": [
+      "four",
+      "five",
+      "ten"
+     ],
+     "a": "four",
+     "why": "Na modré vlajce jsou čtyři červené hvězdy Jižního kříže."
+    },
+    {
+     "t": "mc",
+     "q": "🙃 Do people in New Zealand walk upside down?",
+     "opts": [
+      "No, they don’t.",
+      "Yes, they do."
+     ],
+     "a": "No, they don’t.",
+     "say": "Do people in New Zealand walk upside down?",
+     "why": "Země přitahuje všechno ke svému středu. Ať stojíš kdekoli, nohy máš vždycky dole."
+    },
+    {
+     "t": "build",
+     "cz": "V prosinci je na Novém Zélandu léto.",
+     "a": "It’s summer in New Zealand in December.",
+     "extra": [
+      "winter",
+      "is"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "It’s night in Auckland."
+    },
+    {
+     "t": "speak",
+     "a": "Good morning! It’s summer!"
+    }
+   ]
+  }
+ ],
+ "practice": [],
+ "dialogs": [
+  {
+   "id": "nzr-d5",
+   "title": "Where is it on the map?",
+   "cz": "Kde je to na mapě?",
+   "people": [
+    "Max",
+    "Aroha"
+   ],
+   "lines": [
+    {
+     "who": "Max",
+     "en": "Where are we on the map?",
+     "cz": "Kde jsme na mapě?"
+    },
+    {
+     "who": "Aroha",
+     "en": "We’re here, in Auckland. It’s in the north.",
+     "cz": "Jsme tady, v Aucklandu. Je na severu."
+    },
+    {
+     "who": "Max",
+     "en": "And where is Rotorua?",
+     "cz": "A kde je Rotorua?"
+    },
+    {
+     "who": "Aroha",
+     "en": "It’s here, in the middle. It’s next to a big lake.",
+     "cz": "Tady, uprostřed. Je vedle velkého jezera."
+    },
+    {
+     "who": "Max",
+     "en": "Is it far?",
+     "cz": "Je to daleko?"
+    },
+    {
+     "who": "Aroha",
+     "en": "No, it isn’t. It’s about three hours by car.",
+     "cz": "Ne, není. Asi tři hodiny autem."
+    },
+    {
+     "who": "Max",
+     "en": "Where can I see volcanoes?",
+     "cz": "Kde uvidím sopky?"
+    },
+    {
+     "who": "Aroha",
+     "en": "In the middle of the island, south of Lake Taupō. Look! Ruapehu and Tongariro.",
+     "cz": "Uprostřed ostrova, na jih od jezera Taupō. Podívej! Ruapehu a Tongariro."
+    },
+    {
+     "who": "Max",
+     "en": "Cool! And where’s the river for canoes?",
+     "cz": "Super! A kde je ta řeka na kánoe?"
+    },
+    {
+     "who": "Aroha",
+     "en": "The Whanganui River is here, in the west.",
+     "cz": "Řeka Whanganui je tady, na západě."
+    }
+   ],
+   "qs": [
+    {
+     "q": "Where is Auckland?",
+     "opts": [
+      "in the north",
+      "in the south",
+      "in the sea"
+     ],
+     "a": "in the north",
+     "line": 1
+    },
+    {
+     "q": "Is Rotorua far from Auckland?",
+     "opts": [
+      "No, about three hours by car.",
+      "Yes, about three days."
+     ],
+     "a": "No, about three hours by car.",
+     "line": 5
+    },
+    {
+     "q": "Where are the volcanoes?",
+     "opts": [
+      "in the middle of the island",
+      "in Auckland",
+      "in the sea"
+     ],
+     "a": "in the middle of the island",
+     "line": 7
+    },
+    {
+     "q": "Where is the Whanganui River?",
+     "opts": [
+      "in the west",
+      "in the east",
+      "in Auckland"
+     ],
+     "a": "in the west",
+     "line": 9
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "nzr-r5",
+   "title": "Māui and the big fish",
+   "cz": "Māui a obří ryba (maorská pověst)",
+   "subject": "vlastivěda",
+   "paragraphs": [
+    {
+     "en": "Māui is a hero from Māori stories. He is clever and funny, and he likes fishing.",
+     "cz": "Māui je hrdina z maorských pověstí. Je chytrý a vtipný a rád rybaří."
+    },
+    {
+     "en": "One day, Māui goes fishing with his brothers in their canoe. He has got a magic fish hook.",
+     "cz": "Jednoho dne jede Māui se svými bratry v kánoi na ryby. Má kouzelný rybářský háček."
+    },
+    {
+     "en": "Māui catches a fish. It’s very, very big! His brothers help him pull it up.",
+     "cz": "Māui chytí rybu. Je obrovská! Bratři mu ji pomůžou vytáhnout."
+    },
+    {
+     "en": "The fish is so big that it becomes an island: the North Island! Its Māori name is Te Ika-a-Māui, the fish of Māui.",
+     "cz": "Ryba je tak velká, že se z ní stane ostrov: Severní ostrov! Maorsky se jmenuje Te Ika-a-Māui, Māuiho ryba."
+    },
+    {
+     "en": "And the South Island? That’s Māui’s canoe. Look at the map: can you see the fish?",
+     "cz": "A Jižní ostrov? To je Māuiho kánoe. Podívej se na mapu: vidíš tu rybu?"
+    }
+   ],
+   "glossary": [
+    [
+     "hero",
+     "hrdina"
+    ],
+    [
+     "stories",
+     "příběhy, pověsti"
+    ],
+    [
+     "clever",
+     "chytrý"
+    ],
+    [
+     "funny",
+     "vtipný"
+    ],
+    [
+     "one day",
+     "jednoho dne"
+    ],
+    [
+     "brothers",
+     "bratři"
+    ],
+    [
+     "magic",
+     "kouzelný"
+    ],
+    [
+     "fish hook",
+     "rybářský háček"
+    ],
+    [
+     "catches",
+     "chytí"
+    ],
+    [
+     "pull up",
+     "vytáhnout"
+    ],
+    [
+     "so big that",
+     "tak velká, že"
+    ],
+    [
+     "becomes",
+     "stane se"
+    ]
+   ],
+   "qs": [
+    {
+     "q": "What does Māui like?",
+     "opts": [
+      "fishing",
+      "football",
+      "computer games"
+     ],
+     "a": "fishing"
+    },
+    {
+     "q": "What has Māui got?",
+     "opts": [
+      "a magic fish hook",
+      "a magic hat",
+      "a big dog"
+     ],
+     "a": "a magic fish hook"
+    },
+    {
+     "q": "What does the big fish become?",
+     "opts": [
+      "the North Island",
+      "a whale",
+      "a volcano"
+     ],
+     "a": "the North Island"
+    },
+    {
+     "q": "What is the South Island?",
+     "opts": [
+      "Māui’s canoe",
+      "Māui’s house",
+      "a big fish"
+     ],
+     "a": "Māui’s canoe"
+    }
+   ],
+   "think": "Podívej se na mapu Severního ostrova. Kde má ryba hlavu a kde ocas? Nápověda: podle Maorů je hlava ryby tam, kde je Wellington."
+  }
+ ],
+ "writing": [
+  {
+   "id": "nzr-w5",
+   "title": "My map",
+   "e": "🗺️",
+   "task": "Draw a map of the North Island. Write where the places are.",
+   "cz": "Nakresli mapu Severního ostrova a napiš k ní anglicky, kam pojedete: co je na severu, na jihu, na východě a na západě.",
+   "placeholder": "Auckland is in the north. Rotorua is next to a lake…",
+   "focus": "north/south/east/west, in, next to"
+  }
+ ],
+ "missions": [
+  {
+   "id": "nzr-m21",
+   "where": "Letadlo",
+   "cz": "Až budete přistávat, podívej se z okna. Vidíš moře, ostrovy, nebo hory? Řekni to anglicky: I can see the sea!"
+  },
+  {
+   "id": "nzr-m22",
+   "where": "Večer",
+   "cz": "Za jasné noci najdi Jižní kříž: čtyři jasné hvězdy do kříže. Nakresli ho do deníku."
+  },
+  {
+   "id": "nzr-m23",
+   "where": "Ráno",
+   "cz": "Zjisti, kolik je teď hodin v Mrsklesích, a řekni: In Mrsklesy it’s night!"
+  },
+  {
+   "id": "nzr-m24",
+   "where": "Řeka",
+   "cz": "U řeky zjisti podle mapy nebo kompasu, kterým směrem teče, a řekni: The river is going west!"
+  },
+  {
+   "id": "nzr-m25",
+   "where": "Rybaření",
+   "cz": "Až budeš rybařit, řekni anglicky, jak to dopadlo: I’ve got a fish! nebo No fish today!"
+  }
+ ]
+}

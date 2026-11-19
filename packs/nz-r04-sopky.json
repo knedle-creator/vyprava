@@ -1,0 +1,801 @@
+{
+ "schema": 1,
+ "id": "nz-r04-sopky",
+ "course": "nz",
+ "courseTitle": "Nový Zéland",
+ "order": 4,
+ "title": "Volcanoes and forests",
+ "cz": "Sopky, gejzíry a obří stromy",
+ "version": 1,
+ "subjects": [
+  "angličtina",
+  "přírodověda",
+  "vlastivěda"
+ ],
+ "people": {
+  "Max": {
+   "e": "👦",
+   "pitch": 0.9,
+   "gender": "m",
+   "voice": 1
+  },
+  "Tama": {
+   "e": "🧔",
+   "pitch": 0.85,
+   "gender": "m",
+   "voice": 1
+  }
+ },
+ "lessons": [
+  {
+   "id": "nzr-volc",
+   "e": "🌋",
+   "art": "a1",
+   "title": "Volcanoes",
+   "cz": "Země sopek",
+   "intro": "<p>Nový Zéland je země sopek. Jen ve městě <b>Auckland</b> jich je asi <b>50</b>! Většina z nich už spí. Nejmladší je ostrov <b>Rangitoto</b>. Vybuchl asi před 600 lety a lidé, kteří tam tehdy žili, to viděli.</p><div class=\"rule\"><b>Is it hot?</b> – <b>Yes, it is!</b><br><b>Is it a mountain?</b> – <b>It’s a volcano!</b></div>",
+   "words": [
+    [
+     "🌋",
+     "volcano",
+     "sopka"
+    ],
+    [
+     "⛰️",
+     "mountain",
+     "hora"
+    ],
+    [
+     "🔥",
+     "fire",
+     "oheň"
+    ],
+    [
+     "🪨",
+     "rock",
+     "kámen"
+    ],
+    [
+     "💨",
+     "smoke",
+     "kouř"
+    ],
+    [
+     "🔴",
+     "lava",
+     "láva"
+    ],
+    [
+     "🥵",
+     "hot",
+     "horký"
+    ],
+    [
+     "🏝️",
+     "island",
+     "ostrov"
+    ],
+    [
+     "❄️",
+     "snow",
+     "sníh"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🌋 Jak se řekne <b>sopka</b>?",
+     "opts": [
+      "volcano",
+      "mountain",
+      "island"
+     ],
+     "a": "volcano"
+    },
+    {
+     "t": "listen",
+     "say": "lava",
+     "cz": "láva",
+     "opts": [
+      "lava",
+      "lake",
+      "lamp"
+     ],
+     "a": "lava"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "🌋",
+       "volcano"
+      ],
+      [
+       "⛰️",
+       "mountain"
+      ],
+      [
+       "🔥",
+       "fire"
+      ],
+      [
+       "🏝️",
+       "island"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🔴 What colour is hot lava?",
+     "opts": [
+      "red and orange",
+      "blue and green",
+      "black and white"
+     ],
+     "a": "red and orange",
+     "why": "Horká láva svítí červeně a oranžově. Když vychladne, ztmavne a ztvrdne na kámen."
+    },
+    {
+     "t": "gap",
+     "s": "🏙️ There are about ___ volcanoes in Auckland.",
+     "opts": [
+      "fifty",
+      "five",
+      "fifteen"
+     ],
+     "a": "fifty",
+     "why": "V Aucklandu je asi 50 sopek. Fifty = 50, fifteen = 15."
+    },
+    {
+     "t": "mc",
+     "q": "🏝️ Rangitoto is a young volcano and an …",
+     "opts": [
+      "island",
+      "ice cream",
+      "insect"
+     ],
+     "a": "island",
+     "why": "Rangitoto je sopečný ostrov kousek od Aucklandu. Je to nejmladší sopka v okolí."
+    },
+    {
+     "t": "gap",
+     "s": "🥵 Don’t touch the lava! It’s very ___.",
+     "opts": [
+      "hot",
+      "cold",
+      "small"
+     ],
+     "a": "hot"
+    },
+    {
+     "t": "mc",
+     "q": "⛰️ Ruapehu is the highest mountain on the North Island. What is it?",
+     "opts": [
+      "a volcano",
+      "a lake",
+      "a beach"
+     ],
+     "a": "a volcano",
+     "why": "Ruapehu (2 797 m) je činná sopka. A v zimě se na ní lyžuje, protože nahoře bývá sníh."
+    },
+    {
+     "t": "build",
+     "cz": "Ta hora je sopka.",
+     "a": "The mountain is a volcano.",
+     "extra": [
+      "an",
+      "are"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "It’s a volcano!"
+    },
+    {
+     "t": "speak",
+     "a": "Is it hot? Yes, it is!"
+    }
+   ]
+  },
+  {
+   "id": "nzr-geyser",
+   "e": "♨️",
+   "art": "a3",
+   "title": "Geysers and mud",
+   "cz": "Gejzíry a bublající bahno",
+   "intro": "<p>Ve městě <b>Rotorua</b> je horko hned pod zemí. Ze země stoupá pára, bublá horké bahno a gejzír <b>Pōhutu</b> stříká vodu až 30 metrů vysoko, asi dvacetkrát za den.</p><div class=\"rule\"><b>It smells like eggs!</b> = Smrdí to jako vajíčka!<br>Opravdu. Celé město tak voní.</div>",
+   "words": [
+    [
+     "⛲",
+     "geyser",
+     "gejzír"
+    ],
+    [
+     "💨",
+     "steam",
+     "pára"
+    ],
+    [
+     "🟤",
+     "mud",
+     "bahno"
+    ],
+    [
+     "🫧",
+     "bubbles",
+     "bubliny"
+    ],
+    [
+     "💧",
+     "water",
+     "voda"
+    ],
+    [
+     "🥚",
+     "eggs",
+     "vajíčka"
+    ],
+    [
+     "👃",
+     "smell",
+     "vonět, smrdět"
+    ],
+    [
+     "⬆️",
+     "up",
+     "nahoru"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🟤 Jak se řekne <b>bahno</b>?",
+     "opts": [
+      "mud",
+      "milk",
+      "map"
+     ],
+     "a": "mud"
+    },
+    {
+     "t": "listen",
+     "say": "steam",
+     "cz": "pára",
+     "opts": [
+      "steam",
+      "sea",
+      "sheep"
+     ],
+     "a": "steam"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "⛲",
+       "geyser"
+      ],
+      [
+       "💨",
+       "steam"
+      ],
+      [
+       "🫧",
+       "bubbles"
+      ],
+      [
+       "🥚",
+       "eggs"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "⛲ What does a geyser do?",
+     "opts": [
+      "It shoots hot water up.",
+      "It sings songs.",
+      "It eats fish."
+     ],
+     "a": "It shoots hot water up.",
+     "why": "Gejzír je horký pramen, který chvílemi vystříkne vodu a páru vysoko do vzduchu."
+    },
+    {
+     "t": "gap",
+     "s": "⛲ Pōhutu can shoot water ___ metres up!",
+     "opts": [
+      "thirty",
+      "three",
+      "thirteen"
+     ],
+     "a": "thirty",
+     "why": "Pōhutu vystříkne vodu až do výšky 30 metrů. To je jako desetipatrový dům!"
+    },
+    {
+     "t": "mc",
+     "q": "👃 What does Rotorua smell like?",
+     "opts": [
+      "eggs",
+      "chocolate",
+      "flowers"
+     ],
+     "a": "eggs",
+     "why": "Ze země uniká plyn sirovodík a ten páchne jako zkažená vajíčka."
+    },
+    {
+     "t": "gap",
+     "s": "🟤 The mud is very ___. Don’t touch it!",
+     "opts": [
+      "hot",
+      "cold",
+      "blue"
+     ],
+     "a": "hot"
+    },
+    {
+     "t": "mc",
+     "q": "🫧 What’s the mud doing?",
+     "opts": [
+      "It’s bubbling.",
+      "It’s flying.",
+      "It’s sleeping."
+     ],
+     "a": "It’s bubbling."
+    },
+    {
+     "t": "build",
+     "cz": "Smrdí to jako vajíčka!",
+     "a": "It smells like eggs!",
+     "extra": [
+      "eat",
+      "is"
+     ]
+    },
+    {
+     "t": "type",
+     "s": "💨 pára = ___",
+     "a": [
+      "steam"
+     ]
+    },
+    {
+     "t": "speak",
+     "a": "It smells like eggs!"
+    }
+   ]
+  },
+  {
+   "id": "nzr-trees",
+   "e": "🌳",
+   "art": "a4",
+   "title": "Giant trees and ferns",
+   "cz": "Obří stromy a kapradiny",
+   "intro": "<p>V zélandských lesích rostou <b>kapradiny</b> velké jako stromy a obří stromy <b>kauri</b>. Největší kauri se jmenuje <b>Tāne Mahuta</b>, Pán lesa. Je vysoký jako patnáctipatrový dům a je mu přes 1 000 let.</p><div class=\"rule\"><b>It’s tall.</b> = Je vysoký. · <b>It’s old.</b> = Je starý.<br><b>a leaf</b> = list · <b>leaves</b> = listy</div>",
+   "words": [
+    [
+     "🌳",
+     "tree",
+     "strom"
+    ],
+    [
+     "🌿",
+     "fern",
+     "kapradina"
+    ],
+    [
+     "🍃",
+     "leaves",
+     "listy"
+    ],
+    [
+     "🌸",
+     "flower",
+     "květ, květina"
+    ],
+    [
+     "🎄",
+     "Christmas tree",
+     "vánoční strom"
+    ],
+    [
+     "📏",
+     "tall",
+     "vysoký"
+    ],
+    [
+     "👴",
+     "old",
+     "starý"
+    ],
+    [
+     "🥈",
+     "silver",
+     "stříbrný"
+    ],
+    [
+     "👟",
+     "shoes",
+     "boty"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🌿 Jak se řekne <b>kapradina</b>?",
+     "opts": [
+      "fern",
+      "flower",
+      "forest"
+     ],
+     "a": "fern"
+    },
+    {
+     "t": "listen",
+     "say": "leaves",
+     "cz": "listy",
+     "opts": [
+      "leaves",
+      "legs",
+      "lizards"
+     ],
+     "a": "leaves"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "🌳",
+       "tree"
+      ],
+      [
+       "🌿",
+       "fern"
+      ],
+      [
+       "🌸",
+       "flower"
+      ],
+      [
+       "🍃",
+       "leaves"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🌳 Tāne Mahuta is a very big kauri tree. Is it old?",
+     "opts": [
+      "Yes, it is. More than 1,000 years!",
+      "No, it isn’t. It’s ten."
+     ],
+     "a": "Yes, it is. More than 1,000 years!",
+     "say": "Is it old?"
+    },
+    {
+     "t": "gap",
+     "s": "🌿 The silver fern is green on top and ___ under the leaf.",
+     "opts": [
+      "silver",
+      "red",
+      "pink"
+     ],
+     "a": "silver",
+     "why": "Stříbrná kapradina má spodní stranu listu stříbrnou. Je symbolem Nového Zélandu a najdeš ji i na dresech ragbistů."
+    },
+    {
+     "t": "mc",
+     "q": "🎄 The pōhutukawa is the Kiwi Christmas tree. What colour are its flowers?",
+     "opts": [
+      "red",
+      "blue",
+      "black"
+     ],
+     "a": "red",
+     "why": "Pōhutukawa kvete v prosinci jasně červeně, přesně na Vánoce. Roste hlavně u moře."
+    },
+    {
+     "t": "gap",
+     "s": "👟 Clean your ___ before you walk in the kauri forest.",
+     "opts": [
+      "shoes",
+      "teeth",
+      "hat"
+     ],
+     "a": "shoes",
+     "why": "Stromy kauri ničí nemoc, kterou lidé roznášejí v hlíně na botách. U vstupu do lesa je kartáč a sprej na čištění bot."
+    },
+    {
+     "t": "gap",
+     "s": "📏 The kauri tree is very ___.",
+     "opts": [
+      "tall",
+      "small",
+      "slow"
+     ],
+     "a": "tall"
+    },
+    {
+     "t": "build",
+     "cz": "Ten strom je velmi vysoký a starý.",
+     "a": "The tree is very tall and old.",
+     "extra": [
+      "are",
+      "big"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "I can see a big fern."
+    },
+    {
+     "t": "speak",
+     "a": "Wow! The tree is very tall!"
+    }
+   ]
+  }
+ ],
+ "practice": [],
+ "dialogs": [
+  {
+   "id": "nzr-d4",
+   "title": "What’s that smell?",
+   "cz": "Co to tu tak smrdí?",
+   "people": [
+    "Tama",
+    "Max"
+   ],
+   "lines": [
+    {
+     "who": "Tama",
+     "en": "Kia ora! Welcome to Rotorua!",
+     "cz": "Kia ora! Vítej v Rotorue!"
+    },
+    {
+     "who": "Max",
+     "en": "Kia ora! Ugh! What’s that smell?",
+     "cz": "Kia ora! Fuj! Co to tu tak smrdí?"
+    },
+    {
+     "who": "Tama",
+     "en": "It’s the hot ground under the town. It smells like eggs!",
+     "cz": "To je horká země pod městem. Smrdí jako vajíčka!"
+    },
+    {
+     "who": "Max",
+     "en": "Look! What’s that?",
+     "cz": "Podívej! Co je tohle?"
+    },
+    {
+     "who": "Tama",
+     "en": "It’s a mud pool. The mud is very hot. Don’t touch it!",
+     "cz": "To je bahenní jezírko. Bahno je hodně horké. Nesahej na něj!"
+    },
+    {
+     "who": "Max",
+     "en": "It’s bubbling! Blop, blop!",
+     "cz": "Bublá to! Blop, blop!"
+    },
+    {
+     "who": "Tama",
+     "en": "And now look up. Pōhutu is shooting water!",
+     "cz": "A teď se podívej nahoru. Pōhutu stříká vodu!"
+    },
+    {
+     "who": "Max",
+     "en": "Wow! It’s very tall! Can I take a photo?",
+     "cz": "Páni! Je obrovský! Můžu si ho vyfotit?"
+    },
+    {
+     "who": "Tama",
+     "en": "Yes, of course. But stay on the path, please.",
+     "cz": "Ano, jasně. Ale zůstaň na cestičce, prosím."
+    }
+   ],
+   "qs": [
+    {
+     "q": "What does it smell like?",
+     "opts": [
+      "eggs",
+      "fish",
+      "flowers"
+     ],
+     "a": "eggs",
+     "line": 2
+    },
+    {
+     "q": "Can Max touch the mud?",
+     "opts": [
+      "No, he can’t. It’s very hot.",
+      "Yes, he can."
+     ],
+     "a": "No, he can’t. It’s very hot.",
+     "line": 4
+    },
+    {
+     "q": "What is Pōhutu doing?",
+     "opts": [
+      "It’s shooting water.",
+      "It’s sleeping.",
+      "It’s raining."
+     ],
+     "a": "It’s shooting water.",
+     "line": 6
+    },
+    {
+     "q": "Where must Max stay?",
+     "opts": [
+      "on the path",
+      "in the mud pool",
+      "on the geyser"
+     ],
+     "a": "on the path",
+     "line": 8
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "nzr-r4",
+   "title": "Rotorua smells like eggs",
+   "cz": "Rotorua voní po vajíčkách",
+   "subject": "přírodověda",
+   "paragraphs": [
+    {
+     "en": "Rotorua is a town in New Zealand. Under the town there is a lot of hot rock.",
+     "cz": "Rotorua je město na Novém Zélandu. Pod městem je spousta horkých kamenů."
+    },
+    {
+     "en": "The hot rock makes the water hot. There is steam in the parks and in the gardens.",
+     "cz": "Horké kameny ohřívají vodu. V parcích i na zahradách stoupá pára."
+    },
+    {
+     "en": "There are hot mud pools too. The mud is grey and it bubbles: blop, blop!",
+     "cz": "Jsou tam i jezírka horkého bahna. Bahno je šedé a bublá: blop, blop!"
+    },
+    {
+     "en": "Pōhutu is a big geyser. It shoots hot water up about twenty times a day.",
+     "cz": "Pōhutu je velký gejzír. Asi dvacetkrát za den vystříkne horkou vodu do výšky."
+    },
+    {
+     "en": "And the smell? Rotorua smells like old eggs! But people love it. Some people cook food in the hot ground.",
+     "cz": "A ten zápach? Rotorua smrdí jako stará vajíčka! Ale lidé ji mají rádi. Někteří tam vaří jídlo v horké zemi."
+    }
+   ],
+   "glossary": [
+    [
+     "town",
+     "město"
+    ],
+    [
+     "under",
+     "pod"
+    ],
+    [
+     "a lot of",
+     "spousta"
+    ],
+    [
+     "makes … hot",
+     "ohřívá"
+    ],
+    [
+     "steam",
+     "pára"
+    ],
+    [
+     "gardens",
+     "zahrady"
+    ],
+    [
+     "mud pools",
+     "bahenní jezírka"
+    ],
+    [
+     "bubbles",
+     "bublá"
+    ],
+    [
+     "shoots",
+     "stříká"
+    ],
+    [
+     "twenty times a day",
+     "dvacetkrát za den"
+    ],
+    [
+     "smells like",
+     "voní, páchne jako"
+    ],
+    [
+     "cook",
+     "vařit"
+    ],
+    [
+     "ground",
+     "země, půda"
+    ]
+   ],
+   "qs": [
+    {
+     "q": "What is under Rotorua?",
+     "opts": [
+      "hot rock",
+      "ice",
+      "a big lake"
+     ],
+     "a": "hot rock"
+    },
+    {
+     "q": "What colour is the mud?",
+     "opts": [
+      "grey",
+      "pink",
+      "yellow"
+     ],
+     "a": "grey"
+    },
+    {
+     "q": "How many times a day does Pōhutu shoot water up?",
+     "opts": [
+      "about twenty",
+      "about two",
+      "about two hundred"
+     ],
+     "a": "about twenty"
+    },
+    {
+     "q": "What does Rotorua smell like?",
+     "opts": [
+      "old eggs",
+      "chocolate",
+      "the sea"
+     ],
+     "a": "old eggs"
+    }
+   ],
+   "think": "Jak bys uvařil jídlo bez sporáku, kdybys měl pod zahradou horkou zem? Vymysli recept!"
+  }
+ ],
+ "writing": [
+  {
+   "id": "nzr-w4",
+   "title": "My volcano",
+   "e": "🌋",
+   "task": "Draw a volcano and write about it. Is it big? Is it hot? What can you see?",
+   "cz": "Nakresli sopku a napiš o ní 3–4 věty. Klidně si vymysli vlastní sopku a dej jí jméno.",
+   "placeholder": "My volcano is Mount Robin. It’s very big and hot. I can see…",
+   "focus": "It’s, I can see, adjectives"
+  }
+ ],
+ "missions": [
+  {
+   "id": "nzr-m16",
+   "where": "Rotorua",
+   "cz": "Přičichni a řekni anglicky, jak to tu voní: It smells like eggs!"
+  },
+  {
+   "id": "nzr-m17",
+   "where": "Rotorua",
+   "cz": "Počkej u gejzíru a stopkami změř, jak dlouho stříká. Zapiš to do deníku."
+  },
+  {
+   "id": "nzr-m18",
+   "where": "Les",
+   "cz": "Najdi stříbrnou kapradinu a otoč list. Je zespodu stříbrný? Vyfoť ho."
+  },
+  {
+   "id": "nzr-m19",
+   "where": "U moře",
+   "cz": "Najdi strom pōhutukawa s červenými květy a řekni: Look! A Kiwi Christmas tree!"
+  },
+  {
+   "id": "nzr-m20",
+   "where": "Les s kauri",
+   "cz": "U vstupu do lesa si vyčisti boty na čisticí stanici a řekni tátovi: Clean your shoes, please!"
+  }
+ ]
+}

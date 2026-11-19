@@ -1,0 +1,765 @@
+{
+ "schema": 1,
+ "id": "nz-r03-more",
+ "course": "nz",
+ "courseTitle": "Nový Zéland",
+ "order": 3,
+ "title": "Sea and beach",
+ "cz": "Moře a pláž: delfíni, kraby a bezpečné koupání",
+ "version": 1,
+ "subjects": [
+  "angličtina",
+  "přírodověda"
+ ],
+ "people": {
+  "Max": {
+   "e": "👦",
+   "pitch": 0.9,
+   "gender": "m",
+   "voice": 1
+  },
+  "Lifeguard": {
+   "e": "🛟",
+   "pitch": 1.1,
+   "gender": "f",
+   "voice": 0
+  }
+ },
+ "lessons": [
+  {
+   "id": "nzr-sea",
+   "e": "🐬",
+   "art": "a2",
+   "title": "In the sea",
+   "cz": "Kdo žije v moři",
+   "intro": "<p>Nový Zéland je ze všech stran obklopený mořem. Na západě je <b>Tasmanovo moře</b>, na východě <b>Tichý oceán</b>. Žijí tam delfíni, velryby, lachtani i nejmenší tučňák na světě.</p><div class=\"rule\"><b>What’s the dolphin doing?</b> = Co ten delfín dělá?<br><b>It’s jumping.</b> = Skáče. (Jako v učebnici: He’s skating.)</div>",
+   "words": [
+    [
+     "🐬",
+     "dolphin",
+     "delfín"
+    ],
+    [
+     "🐋",
+     "whale",
+     "velryba"
+    ],
+    [
+     "🦈",
+     "shark",
+     "žralok"
+    ],
+    [
+     "🐙",
+     "octopus",
+     "chobotnice"
+    ],
+    [
+     "🐧",
+     "little penguin",
+     "tučňák nejmenší"
+    ],
+    [
+     "🌊",
+     "wave",
+     "vlna"
+    ],
+    [
+     "🤿",
+     "dive",
+     "potápět se"
+    ],
+    [
+     "⬆️",
+     "jump",
+     "skákat"
+    ],
+    [
+     "🚤",
+     "boat",
+     "loď, člun"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🐙 Jak se řekne <b>chobotnice</b>?",
+     "opts": [
+      "octopus",
+      "shark",
+      "whale"
+     ],
+     "a": "octopus"
+    },
+    {
+     "t": "listen",
+     "say": "shark",
+     "cz": "žralok",
+     "opts": [
+      "shark",
+      "sea",
+      "shell"
+     ],
+     "a": "shark"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "🐬",
+       "dolphin"
+      ],
+      [
+       "🐋",
+       "whale"
+      ],
+      [
+       "🦈",
+       "shark"
+      ],
+      [
+       "🌊",
+       "wave"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🐬⬆️ What’s the dolphin doing?",
+     "opts": [
+      "It’s jumping.",
+      "It’s sleeping.",
+      "It’s reading."
+     ],
+     "a": "It’s jumping.",
+     "say": "What’s the dolphin doing?"
+    },
+    {
+     "t": "gap",
+     "s": "🐧 The penguin is ___ in the sea.",
+     "opts": [
+      "swimming",
+      "flying",
+      "skating"
+     ],
+     "a": "swimming",
+     "why": "Tučňák nelétá, ale plave. Po is přijde tvar s -ing: swimming (se dvěma m)."
+    },
+    {
+     "t": "mc",
+     "q": "🐧 The little penguin is the smallest penguin in the world. How tall is it?",
+     "opts": [
+      "about 30 cm",
+      "about 3 m",
+      "about 3 cm"
+     ],
+     "a": "about 30 cm",
+     "why": "Je vysoký asi jako školní pravítko a váží kolem jednoho kila."
+    },
+    {
+     "t": "gap",
+     "s": "🐋 A whale is very ___.",
+     "opts": [
+      "big",
+      "small",
+      "green"
+     ],
+     "a": "big"
+    },
+    {
+     "t": "listen",
+     "say": "dive",
+     "cz": "potápět se",
+     "opts": [
+      "dive",
+      "drive",
+      "five"
+     ],
+     "a": "dive"
+    },
+    {
+     "t": "build",
+     "cz": "Delfíni plavou vedle lodi.",
+     "a": "The dolphins are swimming next to the boat.",
+     "extra": [
+      "is",
+      "under"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "I can see a whale."
+    },
+    {
+     "t": "speak",
+     "a": "Look! The dolphin is jumping!"
+    }
+   ]
+  },
+  {
+   "id": "nzr-rock",
+   "e": "🦀",
+   "art": "a4",
+   "title": "Rock pools",
+   "cz": "Louže mezi kameny",
+   "intro": "<p>Při <b>odlivu</b> moře na pár hodin ustoupí a mezi kameny zůstanou malé louže. Říká se jim <b>rock pools</b> a schovávají se v nich kraby, hvězdice a mušle.</p><div class=\"rule\"><b>Where’s the crab?</b> = Kde je krab?<br><b>It’s under the rock.</b> · <b>in</b> · <b>on</b> · <b>next to</b></div>",
+   "words": [
+    [
+     "🦀",
+     "crab",
+     "krab"
+    ],
+    [
+     "⭐",
+     "starfish",
+     "hvězdice"
+    ],
+    [
+     "🐚",
+     "shell",
+     "mušle"
+    ],
+    [
+     "🪨",
+     "rock",
+     "kámen"
+    ],
+    [
+     "🏖️",
+     "sand",
+     "písek"
+    ],
+    [
+     "🌊",
+     "low tide",
+     "odliv"
+    ],
+    [
+     "⬇️",
+     "under",
+     "pod"
+    ],
+    [
+     "➡️",
+     "next to",
+     "vedle"
+    ],
+    [
+     "🟣",
+     "sea urchin",
+     "mořský ježek"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🦀 Jak se řekne <b>krab</b>?",
+     "opts": [
+      "crab",
+      "shell",
+      "rock"
+     ],
+     "a": "crab"
+    },
+    {
+     "t": "listen",
+     "say": "starfish",
+     "cz": "hvězdice",
+     "opts": [
+      "starfish",
+      "shark",
+      "shell"
+     ],
+     "a": "starfish"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "⭐",
+       "starfish"
+      ],
+      [
+       "🐚",
+       "shell"
+      ],
+      [
+       "🦀",
+       "crab"
+      ],
+      [
+       "🪨",
+       "rock"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🦀⬇️🪨 Where’s the crab?",
+     "opts": [
+      "It’s under the rock.",
+      "It’s on the rock.",
+      "It’s in the sky."
+     ],
+     "a": "It’s under the rock.",
+     "say": "Where’s the crab?"
+    },
+    {
+     "t": "gap",
+     "s": "⭐ The starfish is ___ the rock. (na)",
+     "opts": [
+      "on",
+      "under",
+      "next to"
+     ],
+     "a": "on"
+    },
+    {
+     "t": "gap",
+     "s": "🐚 The shell is ___ the crab. (vedle)",
+     "opts": [
+      "next to",
+      "under",
+      "in"
+     ],
+     "a": "next to"
+    },
+    {
+     "t": "mc",
+     "q": "🌊 When can you see rock pools?",
+     "opts": [
+      "at low tide",
+      "at high tide"
+     ],
+     "a": "at low tide",
+     "why": "Při odlivu (low tide) moře ustoupí a louže mezi kameny se objeví. Při přílivu (high tide) jsou zase pod vodou."
+    },
+    {
+     "t": "mc",
+     "q": "🦀 Can you take the crab home?",
+     "opts": [
+      "No, I can’t. I put it back.",
+      "Yes, I can."
+     ],
+     "a": "No, I can’t. I put it back.",
+     "why": "Zvířátka z louží vrátíme tam, kde byla. A kámen otoč zpátky, je to jejich střecha."
+    },
+    {
+     "t": "build",
+     "cz": "Ten krab je ve vodě.",
+     "a": "The crab is in the water.",
+     "extra": [
+      "on",
+      "are"
+     ]
+    },
+    {
+     "t": "type",
+     "s": "⭐ hvězdice = ___",
+     "a": [
+      "starfish"
+     ]
+    },
+    {
+     "t": "speak",
+     "a": "Where’s the crab? It’s under the rock."
+    }
+   ]
+  },
+  {
+   "id": "nzr-flags",
+   "e": "🚩",
+   "art": "a6",
+   "title": "Swim between the flags",
+   "cz": "Bezpečně v moři",
+   "intro": "<p>Na zélandských plážích hlídají <b>plavčíci</b> (lifeguards). Do písku zapíchnou <b>červenožluté vlajky</b>. Mezi nimi je nejbezpečnější místo na koupání.</p><div class=\"rule\"><b>Swim between the flags.</b> = Plav mezi vlajkami.<br><b>Don’t swim here.</b> = Tady neplav.</div>",
+   "words": [
+    [
+     "🚩",
+     "flag",
+     "vlajka"
+    ],
+    [
+     "🛟",
+     "lifeguard",
+     "plavčík"
+    ],
+    [
+     "🏊",
+     "swim",
+     "plavat"
+    ],
+    [
+     "↔️",
+     "between",
+     "mezi"
+    ],
+    [
+     "🧢",
+     "hat",
+     "čepice, klobouk"
+    ],
+    [
+     "👕",
+     "T-shirt",
+     "tričko"
+    ],
+    [
+     "🌀",
+     "rip",
+     "proud, který táhne od břehu"
+    ],
+    [
+     "✋",
+     "hand",
+     "ruka"
+    ],
+    [
+     "🆘",
+     "help",
+     "pomoc"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🛟 Kdo na pláži hlídá plavce?",
+     "opts": [
+      "lifeguard",
+      "teacher",
+      "penguin"
+     ],
+     "a": "lifeguard"
+    },
+    {
+     "t": "listen",
+     "say": "flag",
+     "cz": "vlajka",
+     "opts": [
+      "flag",
+      "fly",
+      "frog"
+     ],
+     "a": "flag"
+    },
+    {
+     "t": "mc",
+     "q": "🚩🏊🚩 Where can you swim?",
+     "opts": [
+      "between the flags",
+      "next to the rocks",
+      "far from the lifeguards"
+     ],
+     "a": "between the flags"
+    },
+    {
+     "t": "gap",
+     "s": "☀️ It’s very sunny. Put on your ___!",
+     "opts": [
+      "hat",
+      "shark",
+      "rock"
+     ],
+     "a": "hat"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "🚩",
+       "flag"
+      ],
+      [
+       "🛟",
+       "lifeguard"
+      ],
+      [
+       "🧢",
+       "hat"
+      ],
+      [
+       "👕",
+       "T-shirt"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🌀 A rip is like a strong river in the sea. What do you do?",
+     "opts": [
+      "Float and raise your hand.",
+      "Swim very fast to the beach.",
+      "Go to sleep."
+     ],
+     "a": "Float and raise your hand.",
+     "why": "Znáš to z divoké vody: proti proudu se nebojuje, je silnější než ty. Lehni si na záda, zvedni ruku a nech se nést. Plavčík pro tebe přijede."
+    },
+    {
+     "t": "gap",
+     "s": "✋ If you need help, raise your ___.",
+     "opts": [
+      "hand",
+      "foot",
+      "flag"
+     ],
+     "a": "hand"
+    },
+    {
+     "t": "mc",
+     "q": "☀️ The sun in New Zealand is very strong. What do you need?",
+     "opts": [
+      "a hat and sun cream",
+      "a scarf and gloves",
+      "an ice cream"
+     ],
+     "a": "a hat and sun cream",
+     "why": "Slunce na Zélandu pálí víc než u nás. Spálit se tam dá velmi rychle."
+    },
+    {
+     "t": "build",
+     "cz": "Plav mezi vlajkami.",
+     "a": "Swim between the flags.",
+     "extra": [
+      "swims",
+      "next"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "Swim between the flags."
+    },
+    {
+     "t": "speak",
+     "a": "Can I swim here, please?"
+    }
+   ]
+  }
+ ],
+ "practice": [],
+ "dialogs": [
+  {
+   "id": "nzr-d3",
+   "title": "Can I swim here?",
+   "cz": "Můžu se tady koupat?",
+   "people": [
+    "Max",
+    "Lifeguard"
+   ],
+   "lines": [
+    {
+     "who": "Max",
+     "en": "Excuse me! Can I swim here?",
+     "cz": "Promiňte! Můžu se tady koupat?"
+    },
+    {
+     "who": "Lifeguard",
+     "en": "No, you can’t. There’s a rip here. It’s dangerous.",
+     "cz": "Ne, nemůžeš. Je tu proud, který táhne do moře. Je to nebezpečné."
+    },
+    {
+     "who": "Max",
+     "en": "Where can I swim?",
+     "cz": "Kde se můžu koupat?"
+    },
+    {
+     "who": "Lifeguard",
+     "en": "Swim between the red and yellow flags. Can you see them?",
+     "cz": "Plav mezi červenými a žlutými vlajkami. Vidíš je?"
+    },
+    {
+     "who": "Max",
+     "en": "Yes, I can. They’re next to the big rock.",
+     "cz": "Ano, vidím. Jsou vedle velkého kamene."
+    },
+    {
+     "who": "Lifeguard",
+     "en": "Great. And put on some sun cream. The sun is very strong today.",
+     "cz": "Výborně. A namaž se krémem. Slunce dnes hodně pálí."
+    },
+    {
+     "who": "Max",
+     "en": "OK. Thank you!",
+     "cz": "Dobře. Děkuju!"
+    },
+    {
+     "who": "Lifeguard",
+     "en": "No worries! Have fun!",
+     "cz": "Není zač! Užij si to!"
+    }
+   ],
+   "qs": [
+    {
+     "q": "Can Max swim at the first place?",
+     "opts": [
+      "No, he can’t.",
+      "Yes, he can."
+     ],
+     "a": "No, he can’t.",
+     "line": 1
+    },
+    {
+     "q": "Where are the flags?",
+     "opts": [
+      "next to the big rock",
+      "in the sea",
+      "on the car"
+     ],
+     "a": "next to the big rock",
+     "line": 4
+    },
+    {
+     "q": "What does Max need?",
+     "opts": [
+      "sun cream",
+      "a jacket",
+      "an umbrella"
+     ],
+     "a": "sun cream",
+     "line": 5
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "nzr-r3",
+   "title": "The smallest penguin",
+   "cz": "Nejmenší tučňák na světě",
+   "subject": "přírodověda",
+   "paragraphs": [
+    {
+     "en": "The little penguin lives in New Zealand. It’s the smallest penguin in the world.",
+     "cz": "Tučňák nejmenší žije na Novém Zélandu. Je to nejmenší tučňák na světě."
+    },
+    {
+     "en": "It’s about thirty centimetres tall. It’s blue and white.",
+     "cz": "Je vysoký asi třicet centimetrů. Je modrobílý."
+    },
+    {
+     "en": "In the day, it swims in the sea and catches fish. It can dive very well.",
+     "cz": "Ve dne plave v moři a chytá ryby. Skvěle se potápí."
+    },
+    {
+     "en": "When it’s dark, it comes out of the sea and walks to its nest.",
+     "cz": "Když se setmí, vyleze z moře a jde ke svému hnízdu."
+    },
+    {
+     "en": "Dogs are a big danger for little penguins. Keep your dog on a lead at the beach!",
+     "cz": "Psi jsou pro malé tučňáky velké nebezpečí. Na pláži měj psa na vodítku!"
+    }
+   ],
+   "glossary": [
+    [
+     "smallest",
+     "nejmenší"
+    ],
+    [
+     "world",
+     "svět"
+    ],
+    [
+     "tall",
+     "vysoký"
+    ],
+    [
+     "catches",
+     "chytá"
+    ],
+    [
+     "dive",
+     "potápět se"
+    ],
+    [
+     "dark",
+     "tma"
+    ],
+    [
+     "comes out",
+     "vyleze"
+    ],
+    [
+     "walks",
+     "jde (pěšky)"
+    ],
+    [
+     "nest",
+     "hnízdo"
+    ],
+    [
+     "danger",
+     "nebezpečí"
+    ],
+    [
+     "on a lead",
+     "na vodítku"
+    ]
+   ],
+   "qs": [
+    {
+     "q": "Where does the little penguin catch fish?",
+     "opts": [
+      "in the sea",
+      "in the forest",
+      "at school"
+     ],
+     "a": "in the sea"
+    },
+    {
+     "q": "When does it walk to its nest?",
+     "opts": [
+      "when it’s dark",
+      "at lunch",
+      "in the morning"
+     ],
+     "a": "when it’s dark"
+    },
+    {
+     "q": "What is a big danger for little penguins?",
+     "opts": [
+      "dogs",
+      "sheep",
+      "ice cream"
+     ],
+     "a": "dogs"
+    }
+   ],
+   "think": "Proč asi tučňáci chodí na pláž až za tmy? Před kým se schovávají?"
+  }
+ ],
+ "writing": [
+  {
+   "id": "nzr-w3",
+   "title": "At the beach",
+   "e": "🏖️",
+   "task": "Look at the beach. What can you see? What are the people doing?",
+   "cz": "Podívej se na pláž (nebo na fotku z pláže) a napiš 3–4 věty: co vidíš, kde to je a co lidé dělají.",
+   "placeholder": "I can see a crab. It’s under the rock. My sister is swimming…",
+   "focus": "I can see, is/are + -ing, under/on/next to"
+  }
+ ],
+ "missions": [
+  {
+   "id": "nzr-m12",
+   "where": "Pláž",
+   "cz": "Najdi červenožluté vlajky a plavčíka. Zeptej se sám: Can I swim here, please?"
+  },
+  {
+   "id": "nzr-m13",
+   "where": "Skály při odlivu",
+   "cz": "Prozkoumej rock pool. Najdi 3 zvířata a řekni anglicky, kde jsou: The crab is under the rock. Pak všechno vrať, jak to bylo."
+  },
+  {
+   "id": "nzr-m14",
+   "where": "Pláž",
+   "cz": "Najdi nejhezčí mušli, nakresli ji do deníku a napiš k ní anglicky barvu a velikost: It’s small and white."
+  },
+  {
+   "id": "nzr-m15",
+   "where": "Loď nebo břeh",
+   "cz": "Uvidíš delfína, lachtana nebo tučňáka? Řekni nahlas, co dělá: It’s jumping! / It’s sleeping!"
+  }
+ ]
+}

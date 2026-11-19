@@ -1,0 +1,785 @@
+{
+ "schema": 1,
+ "id": "nz-r02-zvirata",
+ "course": "nz",
+ "courseTitle": "Nový Zéland",
+ "order": 2,
+ "title": "Wild animals",
+ "cz": "Divoká zvířata: ptáci, ještěrky a žádní hadi",
+ "version": 1,
+ "subjects": [
+  "angličtina",
+  "přírodověda"
+ ],
+ "people": {
+  "Max": {
+   "e": "👦",
+   "pitch": 0.9,
+   "gender": "m",
+   "voice": 1
+  },
+  "Kate": {
+   "e": "👩‍🌾",
+   "pitch": 1.1,
+   "gender": "f",
+   "voice": 0
+  }
+ },
+ "lessons": [
+  {
+   "id": "nzr-birds",
+   "e": "🐦",
+   "art": "a1",
+   "title": "Birds",
+   "cz": "Ptáci, kteří nemusí létat",
+   "intro": "<p>Na Novém Zélandu kdysi nežili skoro žádní savci, jen netopýři. Na zemi tam vládli <b>ptáci</b>. Nic je neohrožovalo, a tak někteří přestali létat, třeba kiwi.</p><div class=\"rule\"><b>Has it got wings?</b> = Má křídla?<br><b>Yes, it has.</b> / <b>No, it hasn’t.</b><br>Tohle znáš z učebnice z lekce Wild animals.</div>",
+   "words": [
+    [
+     "🐦",
+     "bird",
+     "pták"
+    ],
+    [
+     "🪶",
+     "feathers",
+     "peří"
+    ],
+    [
+     "🦅",
+     "wings",
+     "křídla"
+    ],
+    [
+     "🐤",
+     "beak",
+     "zobák"
+    ],
+    [
+     "🥚",
+     "egg",
+     "vejce"
+    ],
+    [
+     "🌲",
+     "forest",
+     "les"
+    ],
+    [
+     "🌙",
+     "at night",
+     "v noci"
+    ],
+    [
+     "🦜",
+     "parrot",
+     "papoušek"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🪶 Jak se řekne <b>peří</b>?",
+     "opts": [
+      "feathers",
+      "wings",
+      "beak"
+     ],
+     "a": "feathers"
+    },
+    {
+     "t": "listen",
+     "say": "wings",
+     "cz": "křídla",
+     "opts": [
+      "wings",
+      "eggs",
+      "birds"
+     ],
+     "a": "wings"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "🪶",
+       "feathers"
+      ],
+      [
+       "🦅",
+       "wings"
+      ],
+      [
+       "🥚",
+       "egg"
+      ],
+      [
+       "🐤",
+       "beak"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🥝 Has a kiwi got wings?",
+     "opts": [
+      "Yes, it has. But they are very small.",
+      "No, it hasn’t."
+     ],
+     "a": "Yes, it has. But they are very small.",
+     "say": "Has a kiwi got wings?",
+     "why": "Kiwi křídla má, ale jen pár centimetrů dlouhá a schovaná pod peřím. Létat s nimi neumí."
+    },
+    {
+     "t": "gap",
+     "s": "🥝 A kiwi can’t fly, but it can ___ fast.",
+     "opts": [
+      "run",
+      "swim",
+      "draw"
+     ],
+     "a": "run",
+     "why": "Kiwi má silné nohy. Umí rychle běhat: run."
+    },
+    {
+     "t": "mc",
+     "q": "🦜 The kākāpō is a big green parrot. Can it fly?",
+     "opts": [
+      "No, it can’t.",
+      "Yes, it can."
+     ],
+     "a": "No, it can’t.",
+     "say": "Can the kakapo fly?",
+     "why": "Kākāpō je nejtěžší papoušek na světě a létat neumí. Zato skvěle šplhá po stromech."
+    },
+    {
+     "t": "gap",
+     "s": "🌙 Kiwis look for food at ___.",
+     "opts": [
+      "night",
+      "school",
+      "lunch"
+     ],
+     "a": "night",
+     "why": "Kiwi ve dne spí a jídlo hledá v noci."
+    },
+    {
+     "t": "listen",
+     "say": "feathers",
+     "cz": "peří",
+     "opts": [
+      "feathers",
+      "forest",
+      "fish"
+     ],
+     "a": "feathers"
+    },
+    {
+     "t": "build",
+     "cz": "Má to peří a zobák.",
+     "a": "It has got feathers and a beak.",
+     "extra": [
+      "have",
+      "an"
+     ]
+    },
+    {
+     "t": "type",
+     "s": "🥚 vejce = an ___",
+     "a": [
+      "egg"
+     ]
+    },
+    {
+     "t": "speak",
+     "a": "It has got feathers and a beak."
+    }
+   ]
+  },
+  {
+   "id": "nzr-reptiles",
+   "e": "🦎",
+   "art": "a3",
+   "title": "No snakes!",
+   "cz": "Ještěrky ano, hadi ne",
+   "intro": "<p>Dobrá zpráva pro tebe: na Novém Zélandu žije skoro <b>150 druhů ještěrek</b> a žádný z nich nežije nikde jinde na světě. A zpráva, která tě možná zklame: na souši tam nežije <b>ani jeden had</b>.</p><div class=\"rule\"><b>There are no snakes.</b> = Nejsou tam žádní hadi.<br><b>Has it got scales?</b> = Má šupiny?</div>",
+   "words": [
+    [
+     "🦎",
+     "lizard",
+     "ještěrka"
+    ],
+    [
+     "🐍",
+     "snake",
+     "had"
+    ],
+    [
+     "🐉",
+     "tuatara",
+     "tuatara (plaz z doby dinosaurů)"
+    ],
+    [
+     "🟢",
+     "scales",
+     "šupiny"
+    ],
+    [
+     "🦖",
+     "dinosaur",
+     "dinosaurus"
+    ],
+    [
+     "👁️",
+     "eye",
+     "oko"
+    ],
+    [
+     "🪨",
+     "rock",
+     "kámen, skála"
+    ],
+    [
+     "〰️",
+     "tail",
+     "ocas"
+    ],
+    [
+     "🐌",
+     "slow",
+     "pomalý"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🦎 Jak se řekne <b>ještěrka</b>?",
+     "opts": [
+      "lizard",
+      "snake",
+      "fish"
+     ],
+     "a": "lizard"
+    },
+    {
+     "t": "listen",
+     "say": "snake",
+     "cz": "had",
+     "opts": [
+      "snake",
+      "scales",
+      "slow"
+     ],
+     "a": "snake"
+    },
+    {
+     "t": "mc",
+     "q": "🐍 Are there snakes in New Zealand?",
+     "opts": [
+      "No, there aren’t.",
+      "Yes, there are."
+     ],
+     "a": "No, there aren’t.",
+     "say": "Are there snakes in New Zealand?",
+     "why": "Na souši tam nežije žádný had a podle vědců tam nikdy nežili."
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "🦎",
+       "lizard"
+      ],
+      [
+       "🐍",
+       "snake"
+      ],
+      [
+       "🪨",
+       "rock"
+      ],
+      [
+       "👁️",
+       "eye"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "🐉 The tuatara is very old. Its family lived with the …",
+     "opts": [
+      "dinosaurs",
+      "sheep",
+      "penguins"
+     ],
+     "a": "dinosaurs",
+     "why": "Předkové tuatary žili už v době dinosaurů. Proto se jí říká živá fosilie."
+    },
+    {
+     "t": "gap",
+     "s": "🦎 A bird has got feathers. A lizard has got ___.",
+     "opts": [
+      "scales",
+      "feathers",
+      "wings"
+     ],
+     "a": "scales"
+    },
+    {
+     "t": "mc",
+     "q": "👁️ How many eyes has a baby tuatara got?",
+     "opts": [
+      "three",
+      "two",
+      "one"
+     ],
+     "a": "three",
+     "why": "Mládě tuatary má na temeni třetí oko. Rozezná jím jen světlo a časem mu zaroste šupinami."
+    },
+    {
+     "t": "gap",
+     "s": "🐉 A tuatara can live for ___ years.",
+     "opts": [
+      "sixty",
+      "six",
+      "sixteen"
+     ],
+     "a": "sixty",
+     "why": "Tuatara se dožívá kolem 60 let. Sixty = 60, sixteen = 16, six = 6."
+    },
+    {
+     "t": "build",
+     "cz": "Ta ještěrka je pod kamenem.",
+     "a": "The lizard is under the rock.",
+     "extra": [
+      "on",
+      "snake"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "There are no snakes."
+    },
+    {
+     "t": "speak",
+     "a": "Look! A lizard on the rock!"
+    }
+   ]
+  },
+  {
+   "id": "nzr-night",
+   "e": "🦇",
+   "art": "a5",
+   "title": "In the dark",
+   "cz": "Noc, jeskyně a světlušky",
+   "intro": "<p>V noci a ve tmě žijí na Zélandu zvláštní zvířata: obří hmyz <b>weta</b>, netopýři a v jeskyních svítící larvy <b>glow worms</b>. Na stropě jeskyně vypadají jako noční nebe plné hvězd.</p><div class=\"rule\"><b>It’s dark.</b> = Je tma.<br><b>I can see a light.</b> = Vidím světlo.</div>",
+   "words": [
+    [
+     "🕳️",
+     "cave",
+     "jeskyně"
+    ],
+    [
+     "🌑",
+     "dark",
+     "tma, tmavý"
+    ],
+    [
+     "💡",
+     "light",
+     "světlo"
+    ],
+    [
+     "✨",
+     "glow worm",
+     "svítící larva (glow worm)"
+    ],
+    [
+     "🦗",
+     "weta",
+     "weta (obří hmyz)"
+    ],
+    [
+     "🦇",
+     "bat",
+     "netopýr"
+    ],
+    [
+     "🦟",
+     "sandfly",
+     "muchnička"
+    ],
+    [
+     "😬",
+     "bite",
+     "kousat"
+    ],
+    [
+     "🦵",
+     "legs",
+     "nohy"
+    ]
+   ],
+   "ex": [
+    {
+     "t": "mc",
+     "q": "🕳️ Jak se řekne <b>jeskyně</b>?",
+     "opts": [
+      "cave",
+      "rock",
+      "beach"
+     ],
+     "a": "cave"
+    },
+    {
+     "t": "listen",
+     "say": "dark",
+     "cz": "tma",
+     "opts": [
+      "dark",
+      "bat",
+      "light"
+     ],
+     "a": "dark"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj obrázek se slovem.",
+     "pairs": [
+      [
+       "🦇",
+       "bat"
+      ],
+      [
+       "🕳️",
+       "cave"
+      ],
+      [
+       "💡",
+       "light"
+      ],
+      [
+       "🦗",
+       "weta"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "✨ Where do glow worms live?",
+     "opts": [
+      "in a cave",
+      "in the sea",
+      "on a sheep"
+     ],
+     "a": "in a cave",
+     "why": "Svítící larvy žijí na stropech jeskyní a ve vlhkých roklích. Svítí, aby k sobě nalákaly hmyz."
+    },
+    {
+     "t": "gap",
+     "s": "✨ It’s dark in the cave, but the glow worms make ___.",
+     "opts": [
+      "light",
+      "ice cream",
+      "noise"
+     ],
+     "a": "light"
+    },
+    {
+     "t": "mc",
+     "q": "🦗 A weta is an insect. How many legs has it got?",
+     "opts": [
+      "six",
+      "four",
+      "eight"
+     ],
+     "a": "six",
+     "why": "Každý hmyz má šest nohou. Pavouk jich má osm, ale pavouk hmyz není."
+    },
+    {
+     "t": "mc",
+     "q": "🦇 Before people came, the only land mammals in New Zealand were …",
+     "opts": [
+      "bats",
+      "dogs",
+      "sheep"
+     ],
+     "a": "bats",
+     "why": "Ovce i psi připluli na lodích s lidmi. Původní savci na souši jsou jen netopýři."
+    },
+    {
+     "t": "gap",
+     "s": "🦟 Sandflies are small, but they ___!",
+     "opts": [
+      "bite",
+      "draw",
+      "swim"
+     ],
+     "a": "bite",
+     "why": "Muchničky (sandflies) koušou hlavně u vody. Pomůže repelent a dlouhé rukávy."
+    },
+    {
+     "t": "build",
+     "cz": "V jeskyni je tma.",
+     "a": "It’s dark in the cave.",
+     "extra": [
+      "is",
+      "on"
+     ]
+    },
+    {
+     "t": "dict",
+     "a": "I can see a bat."
+    },
+    {
+     "t": "speak",
+     "a": "Look! The glow worms are like stars!"
+    }
+   ]
+  }
+ ],
+ "practice": [],
+ "dialogs": [
+  {
+   "id": "nzr-d2",
+   "title": "In the kiwi house",
+   "cz": "V domečku pro kiwi",
+   "people": [
+    "Kate",
+    "Max"
+   ],
+   "lines": [
+    {
+     "who": "Kate",
+     "en": "Kia ora! Welcome to the kiwi house. It’s dark in here.",
+     "cz": "Kia ora! Vítej v domečku pro kiwi. Je tu tma."
+    },
+    {
+     "who": "Max",
+     "en": "Why is it dark?",
+     "cz": "Proč je tu tma?"
+    },
+    {
+     "who": "Kate",
+     "en": "Kiwis sleep in the day. They look for food at night.",
+     "cz": "Kiwi ve dne spí. Jídlo hledají v noci."
+    },
+    {
+     "who": "Max",
+     "en": "Look! There’s a kiwi! It’s under the tree.",
+     "cz": "Podívej! Tamhle je kiwi! Je pod stromem."
+    },
+    {
+     "who": "Kate",
+     "en": "Yes! Can you see its long beak?",
+     "cz": "Ano! Vidíš jeho dlouhý zobák?"
+    },
+    {
+     "who": "Max",
+     "en": "Yes, I can. Has it got wings?",
+     "cz": "Ano, vidím. Má křídla?"
+    },
+    {
+     "who": "Kate",
+     "en": "Yes, it has, but they are very small. It can’t fly.",
+     "cz": "Má, ale jsou malinká. Létat neumí."
+    },
+    {
+     "who": "Max",
+     "en": "And what’s that? Is it a lizard?",
+     "cz": "A co je tohle? Je to ještěrka?"
+    },
+    {
+     "who": "Kate",
+     "en": "No, it isn’t. It’s a tuatara. It’s like a little dinosaur!",
+     "cz": "Ne, není. To je tuatara. Je jako malý dinosaurus!"
+    },
+    {
+     "who": "Max",
+     "en": "Cool! I love it!",
+     "cz": "Super! Ta se mi líbí!"
+    }
+   ],
+   "qs": [
+    {
+     "q": "Why is it dark in the kiwi house?",
+     "opts": [
+      "Kiwis look for food at night.",
+      "Kiwis are scared of the sun.",
+      "The light is broken."
+     ],
+     "a": "Kiwis look for food at night.",
+     "line": 2
+    },
+    {
+     "q": "Where is the kiwi?",
+     "opts": [
+      "under the tree",
+      "on the rock",
+      "in the water"
+     ],
+     "a": "under the tree",
+     "line": 3
+    },
+    {
+     "q": "Can the kiwi fly?",
+     "opts": [
+      "No, it can’t.",
+      "Yes, it can."
+     ],
+     "a": "No, it can’t.",
+     "line": 6
+    },
+    {
+     "q": "What is the last animal?",
+     "opts": [
+      "a tuatara",
+      "a lizard",
+      "a snake"
+     ],
+     "a": "a tuatara",
+     "line": 8
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "nzr-r2",
+   "title": "The tuatara",
+   "cz": "Tuatara: živá fosilie",
+   "subject": "přírodověda",
+   "paragraphs": [
+    {
+     "en": "The tuatara lives in New Zealand. It looks like a big lizard, but it isn’t a lizard.",
+     "cz": "Tuatara žije na Novém Zélandu. Vypadá jako velká ještěrka, ale ještěrka to není."
+    },
+    {
+     "en": "Its family is very, very old. They lived with the dinosaurs!",
+     "cz": "Jeho rod je hodně, hodně starý. Žili s dinosaury!"
+    },
+    {
+     "en": "A baby tuatara has got a third eye on its head. It can see light with it.",
+     "cz": "Mládě tuatary má na hlavě třetí oko. Rozezná jím světlo."
+    },
+    {
+     "en": "Tuataras eat insects, for example weta. They are slow and they can live for sixty years.",
+     "cz": "Tuatary jedí hmyz, například wety. Jsou pomalé a dožívají se klidně šedesáti let."
+    },
+    {
+     "en": "Today, wild tuataras live on small islands. There are no rats there.",
+     "cz": "Divoké tuatary dnes žijí na malých ostrovech. Nejsou tam krysy."
+    }
+   ],
+   "glossary": [
+    [
+     "looks like",
+     "vypadá jako"
+    ],
+    [
+     "family",
+     "rod, rodina"
+    ],
+    [
+     "lived",
+     "žili"
+    ],
+    [
+     "third",
+     "třetí"
+    ],
+    [
+     "head",
+     "hlava"
+    ],
+    [
+     "eat",
+     "jíst"
+    ],
+    [
+     "insects",
+     "hmyz"
+    ],
+    [
+     "for example",
+     "například"
+    ],
+    [
+     "wild",
+     "divoký"
+    ],
+    [
+     "islands",
+     "ostrovy"
+    ],
+    [
+     "rats",
+     "krysy"
+    ]
+   ],
+   "qs": [
+    {
+     "q": "Is a tuatara a lizard?",
+     "opts": [
+      "No, it isn’t.",
+      "Yes, it is."
+     ],
+     "a": "No, it isn’t."
+    },
+    {
+     "q": "What has a baby tuatara got on its head?",
+     "opts": [
+      "a third eye",
+      "a hat",
+      "a feather"
+     ],
+     "a": "a third eye"
+    },
+    {
+     "q": "What do tuataras eat?",
+     "opts": [
+      "insects",
+      "ice cream",
+      "grass"
+     ],
+     "a": "insects"
+    }
+   ],
+   "think": "Proč asi tuatary přežily hlavně na ostrovech bez krys? Co krysy dělají s vejci?"
+  }
+ ],
+ "writing": [
+  {
+   "id": "nzr-w2",
+   "title": "My animal card",
+   "e": "🃏",
+   "task": "Make an animal card. Choose an animal from New Zealand. What is it? What has it got? What can it do?",
+   "cz": "Vyrob kartičku zvířete jako do hry. Vyber zvíře z Nového Zélandu a napiš o něm 3–4 věty. Pak ho nakresli.",
+   "placeholder": "It’s a tuatara. It’s green and brown. It has got scales and … It can …",
+   "focus": "It has got, It can, colours"
+  }
+ ],
+ "missions": [
+  {
+   "id": "nzr-m8",
+   "where": "Kiwi house",
+   "cz": "V tmavém domečku pro kiwi sleduj, jak kiwi hledá jídlo zobákem v hlíně. Zašeptej anglicky: Look! A kiwi!"
+  },
+  {
+   "id": "nzr-m9",
+   "where": "Na cestě",
+   "cz": "Najdi ještěrku nebo gekona a vyfoť ho. Do ruky ho nechytej: na Zélandu jsou všechny ještěrky chráněné zákonem. Řekni, kde je: It’s on the rock."
+  },
+  {
+   "id": "nzr-m10",
+   "where": "Jeskyně",
+   "cz": "V jeskyni se svítícími larvami potichu počítej světýlka: one, two, three… Uvnitř se nesvítí ani nefotí, světlo jim vadí."
+  },
+  {
+   "id": "nzr-m11",
+   "where": "Les",
+   "cz": "Poslouchej ptáky. Pták tūī umí znít jako zvonek, píšťalka i robot. Kolik různých zvuků od něj uslyšíš?"
+  }
+ ]
+}
