@@ -1,0 +1,16 @@
+{
+ "_": "Rózka, sestřenice a spolužačka Robina (4. třída). Má stejné lekce jako Robin, jen bez Nového Zélandu. Odkaz: https://knedle-creator.github.io/vyprava/?kdo=rozka",
+ "id": "rozka",
+ "name": "Rózka",
+ "title": "Rózčina výprava",
+ "titleGen": "Rózčiny výpravy",
+ "gender": "f",
+ "hide": [
+  "nz",
+  "vzn"
+ ],
+ "manifest": "profiles/rozka.webmanifest",
+ "t": {
+  "listenSkill": "Přesně tohle se ti bude hodit ve škole i na cestách."
+ }
+}
