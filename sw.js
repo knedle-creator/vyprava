@@ -1,6 +1,6 @@
 /* Service worker: díky němu appka funguje bez internetu.
    Když změníš kód nebo přidáš balíček, zvyš číslo VERZE, ať si telefon stáhne novou kopii. */
-const VERZE = 'robin-v11';
+const VERZE = 'robin-v12';
 // Robinova appka běží na stejném webu (knedle-creator.github.io), proto maže jen svoje staré kopie.
 const APP = VERZE.replace(/-v\d+$/, '');
 const ZAKLAD = [
