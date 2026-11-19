@@ -1,0 +1,244 @@
+{
+ "schema": 1,
+ "id": "vzn-r03-ptaci",
+ "course": "vzn",
+ "courseTitle": "Svět vzhůru nohama",
+ "lang": "cs",
+ "from": "2026-12-09",
+ "order": 3,
+ "version": 1,
+ "title": "Ptáci, kteří chodí pěšky",
+ "cz": "Kiwi, obří moa a proč na Zélandu nejsou hadi",
+ "subjects": [
+  "přírodověda",
+  "matematika"
+ ],
+ "lessons": [
+  {
+   "id": "vznr3-ptaci",
+   "e": "🥝",
+   "art": "a4",
+   "title": "Proč ptáci chodí pěšky",
+   "cz": "Záhada: proč se pták vzdá létání",
+   "intro": "<p>Průzkumníku, na Zélandu potkáš ptáky, kteří chodí pěšky. Zjistíš proč.</p><p class=\"cz\">Asi 7 minut.</p>",
+   "ex": [
+    {
+     "t": "info",
+     "html": "<h3>🔍 Hlášení z výpravy</h3><p>Na Zélandu žijí ptáci, kteří neumějí létat! Kiwi, papoušek kākāpō… A kdysi tu chodil obří <b>moa</b>, vyšší než basketbalový koš.</p><p>Proč by pták přestal létat?</p>"
+    },
+    {
+     "t": "tip",
+     "key": "ptaci",
+     "q": "Co myslíš ty?",
+     "opts": [
+      "Byli líní.",
+      "Nebylo před kým ulétat.",
+      "Bylo moc větrno.",
+      "Nevím, ale zjistím to."
+     ],
+     "after": "Na konci lekce uvidíš, jestli tvůj tip vyšel."
+    },
+    {
+     "t": "info",
+     "html": "<h3>Stopa 1: ostrov bez šelem</h3><p>Zéland je ostrov daleko v oceánu. Lišky, kuny ani kočky se sem samy nikdy nedostaly. Jediní savci, kteří tu žili odjakživa, jsou <b>netopýři</b>. Ti přiletěli.</p>"
+    },
+    {
+     "t": "mc",
+     "q": "Kteří savci žili na Zélandu odjakživa?",
+     "opts": [
+      "Jen netopýři",
+      "Lišky a vlci",
+      "Myši a krysy"
+     ],
+     "a": "Jen netopýři",
+     "why": "Jak se savec dostane přes oceán?",
+     "more": "Myši a krysy sem přivezli až lidé na lodích."
+    },
+    {
+     "t": "info",
+     "html": "<h3>Stopa 2: létání stojí hodně síly</h3><p>Když není před kým utíkat a jídlo je na zemi, vyplatí se chodit. Za hodně dlouhou dobu se ptákům křídla zmenšila. Ptáci tu dokonce dělali práci savců.</p>"
+    },
+    {
+     "t": "pair",
+     "q": "Kdo dělal na Zélandu práci savců?",
+     "pairs": [
+      [
+       "moa",
+       "spásal listí jako jelen 🦌"
+      ],
+      [
+       "kiwi",
+       "čenichá v hlíně jako ježek 🦔"
+      ],
+      [
+       "orel Haastův",
+       "lovil jako šelma"
+      ]
+     ]
+    },
+    {
+     "t": "info",
+     "html": "<h3>Stopa 3: obr a jeho lovec</h3><svg class=\"vz\" viewBox=\"0 0 320 214\" role=\"img\" aria-label=\"Porovnání výšky: kiwi 0,4 m, člověk 1,7 m, basketbalový koš 3,05 m, moa až 3,6 m\"><rect class=\"hbar b-kiwi\" x=\"22\" y=\"168.0\" width=\"46\" height=\"18.0\" rx=\"5\"/><text class=\"lab\" x=\"45\" y=\"162.0\" text-anchor=\"middle\">0,4 m</text><text class=\"sub\" x=\"45\" y=\"202\" text-anchor=\"middle\">kiwi</text><rect class=\"hbar b-lid\" x=\"98\" y=\"109.5\" width=\"46\" height=\"76.5\" rx=\"5\"/><text class=\"lab\" x=\"121\" y=\"103.5\" text-anchor=\"middle\">1,7 m</text><text class=\"sub\" x=\"121\" y=\"202\" text-anchor=\"middle\">člověk</text><rect class=\"hbar b-kos\" x=\"174\" y=\"48.8\" width=\"46\" height=\"137.2\" rx=\"5\"/><text class=\"lab\" x=\"197\" y=\"42.8\" text-anchor=\"middle\">3,05 m</text><text class=\"sub\" x=\"197\" y=\"202\" text-anchor=\"middle\">koš</text><rect class=\"hbar b-moa\" x=\"250\" y=\"24.0\" width=\"46\" height=\"162.0\" rx=\"5\"/><text class=\"lab\" x=\"273\" y=\"18.0\" text-anchor=\"middle\">3,6 m</text><text class=\"sub\" x=\"273\" y=\"202\" text-anchor=\"middle\">moa</text><line class=\"ground\" x1=\"8\" y1=\"186\" x2=\"312\" y2=\"186\"/></svg><p><b>Moa</b> měřil s nataženým krkem až 3 a půl metru a neměl vůbec křídla. Lovil ho <b>orel Haastův</b>, největší orel všech dob. Měl křídla široká skoro jako auto. Oba vyhynuli asi před 500 lety.</p>"
+    },
+    {
+     "t": "num",
+     "q": "Moa měřil až 360 cm, dospělý člověk asi 170 cm. O kolik centimetrů byl moa vyšší?",
+     "form": "int",
+     "a": [
+      190
+     ],
+     "why": "Odečti 360 − 170."
+    },
+    {
+     "t": "mc",
+     "q": "Kdo lovil obřího moa?",
+     "opts": [
+      "Orel Haastův",
+      "Lev",
+      "Krokodýl"
+     ],
+     "a": "Orel Haastův",
+     "why": "Byl to pták, a obří."
+    },
+    {
+     "t": "info",
+     "tip": "ptaci",
+     "tipok": [
+      "Nebylo před kým ulétat."
+     ],
+     "ifok": "<p><b>Trefa!</b> Tvůj tip vyšel. Přesně takhle přemýšlejí vědci.</p>",
+     "ifnot": "<p>Na začátku jsi to nevěděl, nebo sis tipnul jinak. Nevadí, teď už to víš.</p>",
+     "html": "<h3>Záhada vyřešená</h3><p><b>Na ostrově bez šelem nebylo před kým ulétat.</b> Tak se ptákům vyplatilo chodit.</p>"
+    }
+   ]
+  },
+  {
+   "id": "vznr3-hadi",
+   "e": "🦎",
+   "art": "a1",
+   "title": "Proč tu nejsou hadi",
+   "cz": "Záhada pro hadologa, gekoni a tuatara",
+   "intro": "<p>Záhada pro hadologa! A pak se podíváš na plazy, kteří na Zélandu žijí.</p><p class=\"cz\">Asi 7 minut.</p>",
+   "ex": [
+    {
+     "t": "info",
+     "html": "<h3>🔍 Záhada pro hadologa</h3><p>Na celém Zélandu nežije na souši jediný had. Ani jedovatý, ani užovka. Proč?</p>"
+    },
+    {
+     "t": "tip",
+     "key": "hadi",
+     "q": "Co myslíš ty?",
+     "opts": [
+      "Hadi se sem přes oceán nedostali.",
+      "Je tu na hady zima.",
+      "Všechny snědli ptáci.",
+      "Nevím, ale zjistím to."
+     ],
+     "after": "Na konci lekce porovnáš svůj tip."
+    },
+    {
+     "t": "info",
+     "html": "<h3>Stopa: ostrov daleko v moři</h3><p>Zéland se oddělil od ostatní pevniny strašně dávno a leží daleko v oceánu. Had přes široké moře nepřeplave. Proto se sem žádný nedostal.</p><p>A Zéland si to hlídá: na letišti a v přístavu kontrolují zavazadla, aby se sem had nedostal ani dnes.</p>"
+    },
+    {
+     "t": "mc",
+     "q": "Proč na Zélandu nežijí hadi?",
+     "opts": [
+      "Přes oceán se sem nedostali",
+      "Je tu na ně zima",
+      "Snědli je ptáci"
+     ],
+     "a": "Přes oceán se sem nedostali",
+     "why": "Vrať se o obrazovku zpátky."
+    },
+    {
+     "t": "info",
+     "html": "<h3>Ale ještěrky tu jsou!</h3><p>Na Zélandu žije přes sto druhů ještěrek: gekoni a scinkové. Scink je ještěrka s hladkými lesklými šupinami.</p><p>Většina zélandských gekonů dokonce nesnáší vejce, ale rodí živá mláďata.</p>"
+    },
+    {
+     "t": "info",
+     "html": "<h3>Tuatara: živoucí fosilie</h3><p>Tuatara vypadá jako ještěrka, ale ještěrka to není. Je to poslední žijící druh skupiny plazů, která žila už s dinosaury.</p><p>Mláďata mají na temeni hlavy „třetí oko“, které dospělým zaroste kůží. A tuatara se může dožít přes 100 let.</p>"
+    },
+    {
+     "t": "mc",
+     "q": "Čím je tuatara zvláštní?",
+     "opts": [
+      "Je poslední z prastaré skupiny plazů, která žila s dinosaury",
+      "Je to nejrychlejší had",
+      "Umí létat"
+     ],
+     "a": "Je poslední z prastaré skupiny plazů, která žila s dinosaury",
+     "why": "Vrať se o obrazovku zpátky."
+    },
+    {
+     "t": "num",
+     "q": "Tuatara se může dožít 100 let. Tobě je asi 10. Kolikrát déle by mohla žít?",
+     "form": "int",
+     "a": [
+      10
+     ],
+     "why": "Kolikrát se 10 vejde do 100?"
+    },
+    {
+     "t": "mc",
+     "q": "<b>Mýtus, nebo pravda?</b> Na Zélandu žijí jedovatí hadi.",
+     "opts": [
+      "Mýtus",
+      "Pravda"
+     ],
+     "a": "Mýtus",
+     "why": "Vzpomeň si na začátek lekce.",
+     "more": "Mýtus. Na souši tam nežije žádný had."
+    },
+    {
+     "t": "mc",
+     "q": "<b>Mýtus, nebo pravda?</b> Některé ještěrky na Zélandu rodí živá mláďata.",
+     "opts": [
+      "Mýtus",
+      "Pravda"
+     ],
+     "a": "Pravda",
+     "why": "Vzpomeň si na gekony.",
+     "more": "Pravda! Většina zélandských gekonů rodí živá mláďata. Ve světě je to vzácnost."
+    },
+    {
+     "t": "info",
+     "tip": "hadi",
+     "tipok": [
+      "Hadi se sem přes oceán nedostali."
+     ],
+     "ifok": "<p><b>Trefa, hadologu!</b></p>",
+     "ifnot": "<p>Na začátku jsi to nevěděl, nebo sis tipnul jinak. Teď víš víc než většina turistů.</p>",
+     "html": "<h3>Záhada vyřešená</h3><p><b>Hadi se přes oceán nedostali.</b> Hledej místo nich gekony a scinky. Dívej se, ale nesahej: na Zélandu jsou všechny ještěrky chráněné.</p>"
+    }
+   ]
+  }
+ ],
+ "missions": [
+  {
+   "id": "vznr3-m-kiwi",
+   "where": "kiwi house",
+   "cz": "Pozoruj kiwi. Kde má nosní dírky? Nakresli ho."
+  },
+  {
+   "id": "vznr3-m-past",
+   "where": "stezka v lese",
+   "cz": "Najdi past na krysy a lasice. Vyfoť ji."
+  },
+  {
+   "id": "vznr3-m-pukeko",
+   "where": "louka nebo mokřad",
+   "cz": "Najdi modrého ptáka pūkeko. Umí létat? Pozoruj ho a rozhodni."
+  },
+  {
+   "id": "vznr3-m-gekon",
+   "where": "skály, tráva, slunce",
+   "cz": "Hledej gekona nebo scinka. Dívej se a vyfoť ho, ale nesahej: jsou chránění."
+  },
+  {
+   "id": "vznr3-m-moa",
+   "where": "muzeum",
+   "cz": "Najdi kostru nebo model moa. Kam mu dosáhneš?"
+  }
+ ]
+}

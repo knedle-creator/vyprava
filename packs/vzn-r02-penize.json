@@ -1,0 +1,253 @@
+{
+ "schema": 1,
+ "id": "vzn-r02-penize",
+ "course": "vzn",
+ "courseTitle": "Svět vzhůru nohama",
+ "lang": "cs",
+ "from": "2026-12-09",
+ "order": 2,
+ "version": 1,
+ "title": "Kiwi dolary",
+ "cz": "Peníze a nakupování u protinožců",
+ "subjects": [
+  "matematika",
+  "peníze"
+ ],
+ "lessons": [
+  {
+   "id": "vznr2-mince",
+   "e": "🪙",
+   "art": "a3",
+   "title": "Poklad v peněžence",
+   "cz": "Mince, bankovky a kolik je dolar",
+   "intro": "<p>Průzkumník musí umět zaplatit. Zjistíš, jaké peníze mají protinožci.</p><p class=\"cz\">Asi 6 minut.</p>",
+   "ex": [
+    {
+     "t": "info",
+     "html": "<h3>🔍 Hlášení z výpravy</h3><p>Na Zélandu se platí mincí, na které je pták kiwi! Proto se jejich dolaru říká <b>kiwi dolar</b>.</p><p>Kolik to je v korunách? Zjistíme.</p>"
+    },
+    {
+     "t": "tip",
+     "key": "penize",
+     "q": "Kolik korun je podle tebe jeden kiwi dolar?",
+     "opts": [
+      "Asi 1 koruna",
+      "Asi 12 korun",
+      "Asi 100 korun",
+      "Nevím, ale zjistím to."
+     ],
+     "after": "Na konci lekce uvidíš, jestli tvůj tip vyšel."
+    },
+    {
+     "t": "info",
+     "html": "<h3>Mince</h3><svg class=\"vz\" viewBox=\"0 0 320 118\" role=\"img\" aria-label=\"Novozélandské mince: 10, 20 a 50 centů, 1 a 2 dolary\"><circle class=\"coin cu\" cx=\"29.0\" cy=\"52\" r=\"23.0\"/><text class=\"coint\" x=\"29.0\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"central\">10c</text><text class=\"sub\" x=\"29.0\" y=\"104\" text-anchor=\"middle\">tvář</text><circle class=\"coin ag\" cx=\"85.3\" cy=\"52\" r=\"24.4\"/><text class=\"coint\" x=\"85.3\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"central\">20c</text><text class=\"sub\" x=\"85.3\" y=\"104\" text-anchor=\"middle\">Pūkaki</text><circle class=\"coin ag\" cx=\"146.4\" cy=\"52\" r=\"27.7\"/><text class=\"coint\" x=\"146.4\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"central\">50c</text><text class=\"sub\" x=\"146.4\" y=\"104\" text-anchor=\"middle\">loď</text><circle class=\"coin au\" cx=\"208.8\" cy=\"52\" r=\"25.8\"/><text class=\"coint\" x=\"208.8\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"central\">$1</text><text class=\"sub\" x=\"208.8\" y=\"104\" text-anchor=\"middle\">kiwi 🥝</text><circle class=\"coin au\" cx=\"273.3\" cy=\"52\" r=\"29.7\"/><text class=\"coint\" x=\"273.3\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"central\">$2</text><text class=\"sub\" x=\"273.3\" y=\"104\" text-anchor=\"middle\">volavka</text></svg><p><b>100 centů = 1 dolar.</b> Mince jsou za 10, 20 a 50 centů a za 1 a 2 dolary.</p><p>Na dolaru je kiwi, na dvoudolarovce bílá volavka a na padesáticentu loď kapitána Cooka.</p>"
+    },
+    {
+     "t": "pair",
+     "q": "Spoj minci s obrázkem na ní.",
+     "pairs": [
+      [
+       "1 dolar",
+       "kiwi 🥝"
+      ],
+      [
+       "2 dolary",
+       "volavka"
+      ],
+      [
+       "50 centů",
+       "loď ⛵"
+      ]
+     ]
+    },
+    {
+     "t": "mc",
+     "q": "Kolik centů je 1 dolar?",
+     "opts": [
+      "100",
+      "10",
+      "1000"
+     ],
+     "a": "100",
+     "why": "Je to stejné jako u korun a haléřů."
+    },
+    {
+     "t": "num",
+     "q": "Máš dvě mince po 50 centech. Kolik je to centů?",
+     "form": "int",
+     "a": [
+      100
+     ],
+     "why": "Sečti 50 + 50.",
+     "more": "100 centů je přesně 1 dolar."
+    },
+    {
+     "t": "info",
+     "html": "<h3>Stopa: kurz</h3><p><b>1 dolar je asi 12 korun.</b></p><p>Trik průzkumníka: 12 je 10 a ještě 2.<br>3 dolary = 3 × 10 + 3 × 2 = 30 + 6 = <b>36 Kč</b>.</p>"
+    },
+    {
+     "t": "num",
+     "q": "Kolik korun jsou 2 dolary?",
+     "form": "int",
+     "a": [
+      24
+     ],
+     "why": "Sečti 12 + 12."
+    },
+    {
+     "t": "num",
+     "q": "Zmrzlina stojí 5 dolarů. Kolik je to korun?",
+     "form": "int",
+     "a": [
+      60
+     ],
+     "why": "5 × 10 = 50 a 5 × 2 = 10. Teď to sečti."
+    },
+    {
+     "t": "num",
+     "q": "Řekněme, že vstupenka stojí 10 dolarů. Kolik je to korun?",
+     "form": "int",
+     "a": [
+      120
+     ],
+     "why": "Když násobíš deseti, připiš k číslu 12 nulu."
+    },
+    {
+     "t": "info",
+     "tip": "penize",
+     "tipok": [
+      "Asi 12 korun"
+     ],
+     "ifok": "<p><b>Trefa!</b> Tvůj tip vyšel.</p>",
+     "ifnot": "<p>Na začátku jsi to nevěděl, nebo sis tipnul jinak. Teď už to víš a můžeš to v obchodě říct rodičům.</p>",
+     "html": "<h3>Záhada vyřešená</h3><p><b>1 kiwi dolar je asi 12 korun.</b> Násob deseti a přičti ještě dvakrát.</p>"
+    }
+   ]
+  },
+  {
+   "id": "vznr2-dairy",
+   "e": "🍦",
+   "art": "a6",
+   "title": "Nákup v dairy",
+   "cz": "Počítání nákupu, drobné a kapesné",
+   "intro": "<p>Malému obchodu na rohu se na Zélandu říká <b>dairy</b>. Dnes nakupuješ ty!</p><p class=\"cz\">Asi 7 minut.</p>",
+   "ex": [
+    {
+     "t": "num",
+     "q": "Zmrzlina stojí 4 dolary a pití 2 dolary. Kolik zaplatíš?",
+     "form": "int",
+     "a": [
+      6
+     ],
+     "why": "Sečti 4 + 2."
+    },
+    {
+     "t": "num",
+     "q": "Máš 20 dolarů. Koupíš zmrzlinu za 4 dolary a pohled za 3 dolary. Kolik ti zbude?",
+     "form": "int",
+     "a": [
+      13
+     ],
+     "why": "Nejdřív sečti, co utratíš (4 + 3). Pak to odečti od 20."
+    },
+    {
+     "t": "info",
+     "html": "<h3>Kam zmizely drobné?</h3><p>Na Zélandu nejsou mince za 1, 2 ani 5 centů. Když platíš hotově, centy se zaokrouhlí na desítky, přesně jak to umíš ze školy:</p><p>47 centů → <b>50</b><br>43 centů → <b>40</b></p>"
+    },
+    {
+     "t": "mc",
+     "q": "Platíš hotově 3 dolary a 47 centů. Kolik opravdu zaplatíš?",
+     "opts": [
+      "3 dolary a 50 centů",
+      "3 dolary a 40 centů",
+      "3 dolary"
+     ],
+     "a": "3 dolary a 50 centů",
+     "why": "Zaokrouhli 47 na desítky."
+    },
+    {
+     "t": "mc",
+     "q": "Platíš hotově 5 dolarů a 22 centů. Kolik opravdu zaplatíš?",
+     "opts": [
+      "5 dolarů a 20 centů",
+      "5 dolarů a 30 centů",
+      "6 dolarů"
+     ],
+     "a": "5 dolarů a 20 centů",
+     "why": "Zaokrouhli 22 na desítky."
+    },
+    {
+     "t": "num",
+     "q": "Máš 120 korun. Kolik je to dolarů?",
+     "form": "int",
+     "a": [
+      10
+     ],
+     "why": "1 dolar je 12 Kč. Kolik dolarů je 120 Kč? Pomůže 12 × 10."
+    },
+    {
+     "t": "mc",
+     "q": "Co se vyplatí víc?",
+     "opts": [
+      "Dvě zmrzliny za 8 dolarů",
+      "Jedna zmrzlina za 5 dolarů"
+     ],
+     "a": "Dvě zmrzliny za 8 dolarů",
+     "why": "Kolik stojí jedna zmrzlina v nabídce dvě za 8?",
+     "more": "Ve dvojici stojí jedna zmrzlina 4 dolary, sama 5 dolarů. Ale vyplatí se jen tehdy, když opravdu chceš dvě!"
+    },
+    {
+     "t": "info",
+     "html": "<h3>Rozpočet průzkumníka</h3><p>Na výpravu dostaneš kapesné. Kdo si ho rozdělí na dny, nebude mít na konci výpravy prázdnou kapsu.</p>"
+    },
+    {
+     "t": "num",
+     "q": "Na 3 dny máš 30 dolarů. Kolik můžeš utratit za jeden den, aby ti vystačily?",
+     "form": "int",
+     "a": [
+      10
+     ],
+     "why": "Rozděl 30 na 3 stejné díly."
+    },
+    {
+     "t": "mc",
+     "q": "<b>Mýtus, nebo pravda?</b> Novozélandské bankovky jsou z plastu a vydrží i vyprání.",
+     "opts": [
+      "Mýtus",
+      "Pravda"
+     ],
+     "a": "Pravda",
+     "why": "Co se stane s papírovou bankovkou v pračce?",
+     "more": "Pravda! Jsou z plastu, takže vodu vydrží. Na pětidolarovce je horolezec Edmund Hillary a na druhé straně tučňák."
+    }
+   ]
+  }
+ ],
+ "missions": [
+  {
+   "id": "vznr2-m-mince",
+   "where": "první nákup",
+   "cz": "Najdi minci s kiwi a minci s volavkou. Kolik jich máš v peněžence?"
+  },
+  {
+   "id": "vznr2-m-dairy",
+   "where": "obchůdek dairy",
+   "cz": "Zjisti, kolik stojí zmrzlina, a přepočítej to na koruny. Je dražší než doma?"
+  },
+  {
+   "id": "vznr2-m-kapesne",
+   "where": "jeden den výletu",
+   "cz": "Dostaneš kapesné na jeden den. Rozhodni sám, za co ho utratíš. Večer spočítej, kolik zbylo."
+  },
+  {
+   "id": "vznr2-m-drobne",
+   "where": "po nákupu",
+   "cz": "Spočítej drobné, které ti vrátili. Sedí to?"
+  },
+  {
+   "id": "vznr2-m-tucnak",
+   "where": "první bankovka",
+   "cz": "Najdi na pětidolarovce tučňáka. Jak se jmenuje? Zeptej se prodavače."
+  }
+ ]
+}
